@@ -10,12 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         targetPlatform:
-          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
-          - StandaloneWindows # Build a Windows standalone.
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
-          - StandaloneLinux64 # Build a Linux 64-bit standalone.
-          - iOS # Build an iOS player.
-          - Android # Build an Android .apk standalone app.
+          # Modified: Only build for WebGL
           - WebGL # WebGL.
     steps:
       - uses: actions/checkout@v4
@@ -27,8 +22,9 @@ jobs:
           path: Library
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
-      - if: matrix.targetPlatform == 'Android'
-        uses: jlumbroso/free-disk-space@v1.3.1
+      # The free-disk-space action is no longer needed if only building WebGL
+      # - if: matrix.targetPlatform == 'Android'
+      #   uses: jlumbroso/free-disk-space@v1.3.1
       - uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -36,8 +32,45 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-      # Corrected: Updated to use actions/upload-artifact@v4
       - uses: actions/upload-artifact@v4
         with:
           name: Build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
+
+  # New job to deploy the WebGL build to GitHub Pages
+  deployWebGL:
+    # This job depends on the successful completion of the build job
+    needs: buildForAllSupportedPlatforms
+    # Only run this deploy job when the push is to the main branch
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # Set the deployment URL
+
+    permissions:
+      pages: write      # Allows the deployment to GitHub Pages
+      id-token: write   # Allows the deployment to GitHub Pages
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download WebGL artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: Build-WebGL # Download the artifact named 'Build-WebGL'
+          path: ./webgl-build # Specify a path to download the artifact
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # The directory containing the build output for GitHub Pages
+          path: ./webgl-build/build/WebGL # Adjust this path based on your Unity build output structure
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
