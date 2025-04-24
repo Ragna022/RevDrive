@@ -22,9 +22,17 @@ jobs:
           path: Library
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
-      # The free-disk-space action is no longer needed if only building WebGL
-      # - if: matrix.targetPlatform == 'Android'
-      #   uses: jlumbroso/free-disk-space@v1.3.1
+      # Added: Free up disk space before the build
+      - name: Free up disk space
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          # This might be needed depending on the runner image and available space
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          go: true
+
       - uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
