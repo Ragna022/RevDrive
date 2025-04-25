@@ -78,8 +78,8 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Corrected: The path should be the download path of the artifact
-          path: ./webgl-build # Adjust this path based on your Unity build output structure
+          # Corrected: The path should point to the 'WebGL' subfolder within the download path
+          path: ./webgl-build/WebGL # Adjust this path based on your Unity build output structure
 
       - name: Deploy to GitHub Pages
         id: deployment
