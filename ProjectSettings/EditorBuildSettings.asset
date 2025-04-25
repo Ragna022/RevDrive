@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: e8cd586f1955b0540a533c0ce5dcb748
-  - enabled: 1
+  - enabled: 0
     path: Assets/CartoonTracksPack1/Track1/Demo Scenes/QuickRace.unity
     guid: adb8beac2f60ff04e9bf860c83e428bb
+  - enabled: 1
+    path: Assets/CartoonTracksPack1/Track1/Demo Scenes/Quick Race.unity
+    guid: cb1af969dade03c4191e4ccffe31484e
   - enabled: 1
     path: Assets/CartoonTracksPack1/Track1/Demo Scenes/TimeTrial.unity
     guid: 2b76284a03cafc34bbc421cd09e3b0ff

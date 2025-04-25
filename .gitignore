@@ -71,9 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Ignore specific large texture files
-Assets/CartoonTracksPack1/Track1/Textures/road.psd
-Assets/CartoonTracksPack1/Track1/Textures/road_normal.png
 
 
 

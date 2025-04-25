@@ -16,62 +16,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: true # Keep LFS true in case you use it for other assets
-
+          lfs: true
       - uses: actions/cache@v3
         with:
           path: Library
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
-
       # Added: Free up disk space before the build
       - name: Free up disk space
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
+          # This might be needed depending on the runner image and available space
           tool-cache: false
           android: true
           dotnet: true
           haskell: true
           go: true
-
-      # --- Steps to Download External Assets ---
-      # These steps download the assets from Google Drive before the Unity build.
-      # We use 'curl' to download and place them in the correct project path.
-      # Ensure these paths match where Unity expects the files.
-      - name: Download road.psd
-        run: |
-          # Google Drive public links often require specific handling to download directly.
-          # This curl command attempts to download the file directly.
-          # The destination path must match the path ignored in .gitignore
-          mkdir -p Assets/CartoonTracksPack1/Track1/Textures/ # Ensure the directory exists
-          curl -L "https://drive.google.com/uc?export=download&id=1KCfrDPiisDz4Hu61WnaYWs8BvAHd8WGI" -o Assets/CartoonTracksPack1/Track1/Textures/road.psd
-          echo "Downloaded road.psd"
-
-      - name: Download road_normal.png
-        run: |
-          # Download road_normal.png similarly
-          mkdir -p Assets/CartoonTracksPack1/Track1/Textures/ # Ensure the directory exists
-          curl -L "https://drive.google.com/uc?export=download&id=12jSsQYCdeCBO6Gm6L3XbPNHhjcgtvdwZ" -o Assets/CartoonTracksPack1/Track1/Textures/road_normal.png
-          echo "Downloaded road_normal.png"
-      # --- End of Added Steps ---
-
-      # --- Verification Steps (Added for Debugging) ---
-      # These steps verify if the downloaded files exist and are not empty.
-      # If they are missing or empty, the step will fail, indicating a download issue.
-      - name: Verify downloaded files exist and check for meta files
-        run: |
-          echo "Listing contents of Assets/CartoonTracksPack1/Track1/Textures/"
-          ls -la Assets/CartoonTracksPack1/Track1/Textures/
-          echo "Checking if road.psd exists and is not empty"
-          test -s Assets/CartoonTracksPack1/Track1/Textures/road.psd && echo "road.psd exists and is not empty" || { echo "road.psd is missing or empty!"; exit 1; }
-          echo "Checking if road_normal.png exists and is not empty"
-          test -s Assets/CartoonTracksPack1/Track1/Textures/road_normal.png && echo "road_normal.png exists and is not empty" || { echo "road_normal.png is missing or empty!"; exit 1; }
-          echo "Checking for road.psd.meta"
-          ls -la Assets/CartoonTracksPack1/Track1/Textures/road.psd.meta || echo "road.psd.meta not found - ENSURE THIS FILE IS TRACKED BY GIT!"
-          echo "Checking for road_normal.png.meta"
-          ls -la Assets/CartoonTracksPack1/Track1/Textures/road_normal.png.meta || echo "road_normal.png.meta not found - ENSURE THIS FILE IS TRACKED BY GIT!"
-      # --- End of Verification Steps ---
-
 
       - uses: game-ci/unity-builder@v4
         env:
@@ -80,9 +40,6 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-          # Removed: customParameters: -logfile -  <-- Removed this line
-
-
       - uses: actions/upload-artifact@v4
         with:
           name: Build-${{ matrix.targetPlatform }}
@@ -100,9 +57,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }} # Set the deployment URL
 
     permissions:
-      pages: write       # Allows the deployment to GitHub Pages
-      id-token: write    # Allows the deployment to GitHub Pages
-      contents: read     # Explicitly grant read access to repository contents
+      pages: write      # Allows the deployment to GitHub Pages
+      id-token: write   # Allows the deployment to GitHub Pages
+      # Added: Explicitly grant read access to repository contents
+      contents: read
 
     steps:
       - name: Checkout
@@ -126,4 +84,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

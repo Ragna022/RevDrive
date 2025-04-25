@@ -11,6 +11,8 @@ public class TimeTrialManager : MonoBehaviour
     public GameObject finishUI;
     public Text finalTimeText;
     public Text bestTimeText;
+    public AudioSource engineAudioSource;
+    public AudioSource driftAudioSource;
 
     private float timer = 0f;
     private bool raceStarted = false;
@@ -64,13 +66,23 @@ public class TimeTrialManager : MonoBehaviour
 
     IEnumerator ShowFinishPanelDelayed()
     {
-        // Enter slow motion right after finish
-        Time.timeScale = 0.4f; // smooth and cinematic
+        Time.timeScale = 0.4f;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
 
-        yield return new WaitForSecondsRealtime(1.5f); // unaffected by timeScale
+        yield return new WaitForSecondsRealtime(0.25f);
 
         playerVehicle.GetComponent<PrometeoCarController>().enabled = false;
+
+        // Stop all engine sounds
+        AudioSource[] audioSources = playerVehicle.GetComponentsInChildren<AudioSource>();
+        if (engineAudioSource != null)
+            engineAudioSource.mute = true;
+
+        if (driftAudioSource != null)
+            driftAudioSource.mute = true;
+
+        Destroy(playerVehicle); // Optional: still destroy it visually
+
         finishUI.SetActive(true);
     }
 
