@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -58,5 +59,10 @@ public class GameManager : MonoBehaviour
         desiredPosition = startPosition - endPosition;
         float temp = vehicleSpeed / 180;
         needle.transform.eulerAngles = new Vector3(0, 0,(startPosition - temp * desiredPosition));
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadScene(0);
     }
 }
