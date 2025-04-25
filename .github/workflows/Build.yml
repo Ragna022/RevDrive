@@ -58,7 +58,7 @@ jobs:
       # --- Verification Steps (Added for Debugging) ---
       # These steps verify if the downloaded files exist and are not empty.
       # If they are missing or empty, the step will fail, indicating a download issue.
-      - name: Verify downloaded files exist
+      - name: Verify downloaded files exist and check for meta files
         run: |
           echo "Listing contents of Assets/CartoonTracksPack1/Track1/Textures/"
           ls -la Assets/CartoonTracksPack1/Track1/Textures/
@@ -66,6 +66,10 @@ jobs:
           test -s Assets/CartoonTracksPack1/Track1/Textures/road.psd && echo "road.psd exists and is not empty" || { echo "road.psd is missing or empty!"; exit 1; }
           echo "Checking if road_normal.png exists and is not empty"
           test -s Assets/CartoonTracksPack1/Track1/Textures/road_normal.png && echo "road_normal.png exists and is not empty" || { echo "road_normal.png is missing or empty!"; exit 1; }
+          echo "Checking for road.psd.meta"
+          ls -la Assets/CartoonTracksPack1/Track1/Textures/road.psd.meta || echo "road.psd.meta not found - ENSURE THIS FILE IS TRACKED BY GIT!"
+          echo "Checking for road_normal.png.meta"
+          ls -la Assets/CartoonTracksPack1/Track1/Textures/road_normal.png.meta || echo "road_normal.png.meta not found - ENSURE THIS FILE IS TRACKED BY GIT!"
       # --- End of Verification Steps ---
 
 
@@ -76,6 +80,8 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
+          # Added: Increase log verbosity for debugging
+          customParameters: -logfile -
 
       - uses: actions/upload-artifact@v4
         with:
