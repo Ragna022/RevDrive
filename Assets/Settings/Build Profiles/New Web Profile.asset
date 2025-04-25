@@ -30,8 +30,6 @@ MonoBehaviour:
     m_path: Assets/CartoonTracksPack1/Track1/Demo Scenes/Drift.unity
   - m_enabled: 0
     m_path: Assets/CartoonTracksPack1/Track1/Demo Scenes/complete_track_demo.unity
-  - m_enabled: 0
-    m_path: Assets/Scenes/SampleScene.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
