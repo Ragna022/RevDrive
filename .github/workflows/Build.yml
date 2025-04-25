@@ -59,6 +59,8 @@ jobs:
     permissions:
       pages: write      # Allows the deployment to GitHub Pages
       id-token: write   # Allows the deployment to GitHub Pages
+      # Added: Explicitly grant read access to repository contents
+      contents: read
 
     steps:
       - name: Checkout
