@@ -12,16 +12,16 @@ EditorBuildSettings:
     path: Assets/CartoonTracksPack1/Track1/Demo Scenes/QuickRace.unity
     guid: adb8beac2f60ff04e9bf860c83e428bb
   - enabled: 1
-    path: Assets/CartoonTracksPack1/Track1/Demo Scenes/Quick Race.unity
+    path: Assets/Scenes/Quick Race.unity
     guid: cb1af969dade03c4191e4ccffe31484e
   - enabled: 1
-    path: Assets/CartoonTracksPack1/Track1/Demo Scenes/TimeTrial.unity
+    path: Assets/Scenes/TimeTrial.unity
     guid: 2b76284a03cafc34bbc421cd09e3b0ff
   - enabled: 1
-    path: Assets/CartoonTracksPack1/Track1/Demo Scenes/Drift.unity
+    path: Assets/Scenes/Drift.unity
     guid: 0ad38c76fd9c06e40b3c0898fc931e0c
   - enabled: 0
-    path: Assets/CartoonTracksPack1/Track1/Demo Scenes/complete_track_demo.unity
+    path: Assets/Scenes/Demo Scenes/complete_track_demo.unity
     guid: 83760dd98fe89364daec0c8817772284
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
