@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class GameManager : MonoBehaviour
 {
     public PrometeoCarController carController;
-    public GameObject needle;
+    public Image speedometerFillImage; // This replaces the needle GameObject
+
     private float startPosition = 212f, endPosition = -35.7f;
     private float desiredPosition;
 
@@ -45,21 +48,24 @@ public class GameManager : MonoBehaviour
     }
 
     void FixedUpdate()
+{
+    if (carController != null)
     {
-        // Ensure carController is assigned before accessing its properties
-        if (carController != null)
-        {
-            vehicleSpeed = carController.carSpeed;
-            UpdateNeedle();
-        }
+        vehicleSpeed = carController.carSpeed;
+        UpdateSpeedometerFill(); // Updated method
     }
+}
 
-    void UpdateNeedle()
+void UpdateSpeedometerFill()
+{
+    if (speedometerFillImage != null)
     {
-        desiredPosition = startPosition - endPosition;
-        float temp = vehicleSpeed / 180;
-        needle.transform.eulerAngles = new Vector3(0, 0,(startPosition - temp * desiredPosition));
+        // Assuming maximum speed is 180, normalize between 0 and 1
+        float normalizedSpeed = Mathf.Clamp01(vehicleSpeed / 180f);
+        speedometerFillImage.fillAmount = normalizedSpeed;
     }
+}
+
 
     public void Home()
     {
