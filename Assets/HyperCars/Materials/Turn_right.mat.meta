@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ff15f81235af28469205813204303c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196121
+  packageName: Stylized Hypercars
+  packageVersion: 1.0
+  assetPath: Assets/HyperCars/Materials/Turn_right.mat
+  uploadId: 441457

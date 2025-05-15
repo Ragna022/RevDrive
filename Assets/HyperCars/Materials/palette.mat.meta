@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc395673a5e21f746991af8076b211c3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196121
+  packageName: Stylized Hypercars
+  packageVersion: 1.0
+  assetPath: Assets/HyperCars/Materials/palette.mat
+  uploadId: 441457

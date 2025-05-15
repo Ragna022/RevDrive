@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bd9902e826502aa4ab4cdc485a3d5329
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196121
+  packageName: Stylized Hypercars
+  packageVersion: 1.0
+  assetPath: Assets/HyperCars/Prefabs/Hypercar1_Detailed.prefab
+  uploadId: 441457

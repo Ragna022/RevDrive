@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     private float startPosition = 212f, endPosition = -35.7f;
     private float desiredPosition;
-
     public float vehicleSpeed;
 
     [Space(10)] // Add space in Inspector
@@ -48,27 +47,28 @@ public class GameManager : MonoBehaviour
     }
 
     void FixedUpdate()
-{
-    if (carController != null)
     {
-        vehicleSpeed = carController.carSpeed;
-        UpdateSpeedometerFill(); // Updated method
+        if (carController != null)
+        {
+            vehicleSpeed = carController.carSpeed;
+            UpdateSpeedometerFill(); // Updated method
+        }
     }
-}
 
-void UpdateSpeedometerFill()
-{
-    if (speedometerFillImage != null)
+    void UpdateSpeedometerFill()
     {
-        // Assuming maximum speed is 180, normalize between 0 and 1
-        float normalizedSpeed = Mathf.Clamp01(vehicleSpeed / 180f);
-        speedometerFillImage.fillAmount = normalizedSpeed;
+        if (speedometerFillImage != null)
+        {
+            // Assuming maximum speed is 180, normalize between 0 and 1
+            float normalizedSpeed = Mathf.Clamp01(vehicleSpeed / 180f);
+            speedometerFillImage.fillAmount = normalizedSpeed;
+        }
     }
-}
 
 
+    //  Used the necessary scene namme
     public void Home()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Home");
     }
 }

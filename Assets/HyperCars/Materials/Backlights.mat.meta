@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e46552fedf5b10e4e8f0621262a9554b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196121
+  packageName: Stylized Hypercars
+  packageVersion: 1.0
+  assetPath: Assets/HyperCars/Materials/Backlights.mat
+  uploadId: 441457

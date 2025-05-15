@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 52a5f47d6d93e66408cc37567793cc83
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Prefabs/StreetLights/StreetLight.prefab
+  uploadId: 655332

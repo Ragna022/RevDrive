@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 032b5f68a3d6f0640ba26e4fb1cb0fe4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Scenes/DemoTerrain.asset
+  uploadId: 655332

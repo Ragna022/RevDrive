@@ -33,11 +33,17 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
+<<<<<<< Updated upstream
   m_CustomRenderQueue: -1
+=======
+  m_CustomRenderQueue: 3000
+>>>>>>> Stashed changes
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses:
   - GRABPASS
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -120,8 +126,13 @@ Material:
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
+<<<<<<< Updated upstream
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+=======
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
+>>>>>>> Stashed changes
     - _EmissionEnabled: 0
     - _EnvironmentReflections: 1
     - _FlipbookBlending: 0

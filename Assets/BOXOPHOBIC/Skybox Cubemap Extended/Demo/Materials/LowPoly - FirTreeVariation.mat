@@ -135,7 +135,11 @@ Material:
     - _WindMagnitude: {r: 0, g: 0, b: 0.1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+<<<<<<< Updated upstream
 --- !u!114 &1154690015502772783
+=======
+--- !u!114 &510289216386745440
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

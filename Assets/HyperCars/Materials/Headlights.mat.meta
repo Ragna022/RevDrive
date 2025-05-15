@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b888c8c0a0dbb184bbdd59489a221f4c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196121
+  packageName: Stylized Hypercars
+  packageVersion: 1.0
+  assetPath: Assets/HyperCars/Materials/Headlights.mat
+  uploadId: 441457

@@ -419,10 +419,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &6291345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,6 +772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -779,6 +785,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &27072901
@@ -793,10 +802,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &27072902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,6 +1271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -1269,6 +1284,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &39834971
@@ -1283,10 +1301,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &39834972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,6 +1851,7 @@ MonoBehaviour:
   scrollRect: {fileID: 981852889}
   dotPrefab: {fileID: 3169270656682810730, guid: 9a177ba110beba045809a2b2259feca9, type: 3}
   dotContainer: {fileID: 1593358279}
+<<<<<<< Updated upstream
   activeDotColor:
     r: 1
     g: 1
@@ -1838,6 +1862,10 @@ MonoBehaviour:
     g: 0.5
     b: 0.5
     a: 1
+=======
+  activeDotColor: {r: 1, g: 1, b: 1, a: 1}
+  inactiveDotColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+>>>>>>> Stashed changes
   scaleFactor: 1.2
   lerpSpeed: 10
   carNameText: {fileID: 571704387}
@@ -1847,10 +1875,13 @@ MonoBehaviour:
   topSpeedSlider: {fileID: 933906308}
   handlingSlider: {fileID: 29408491}
   nitroSlider: {fileID: 2024412343}
+<<<<<<< Updated upstream
   items: []
   dots: []
   viewport: {fileID: 0}
   currentIndex: -1
+=======
+>>>>>>> Stashed changes
 --- !u!114 &60383497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2137,6 +2168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -2149,6 +2181,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &87633401
@@ -2163,10 +2198,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &87633402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,8 +2328,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &93014175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,12 +2576,19 @@ MonoBehaviour:
   autoRotateSpeed: 10
   dragRotateSpeed: 5
   touchArea:
+<<<<<<< Updated upstream
+=======
+    serializedVersion: 2
+>>>>>>> Stashed changes
     x: 0.25
     y: 0.25
     width: 0.5
     height: 0.5
+<<<<<<< Updated upstream
   isDragging: 0
   lastX: 0
+=======
+>>>>>>> Stashed changes
 --- !u!136 &106184062
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3147,10 +3197,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &138227012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,10 +3343,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &146894207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3488,10 +3548,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &155018001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3612,6 +3677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.1
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8396226
     g: 0.8396226
@@ -3624,6 +3690,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!1 &163335582
@@ -10190,6 +10259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -10202,6 +10272,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &273339398
@@ -10216,10 +10289,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &273339399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10573,6 +10651,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream
 --- !u!1 &285582371
 GameObject:
   m_ObjectHideFlags: 0
@@ -10664,6 +10743,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285582371}
   m_Mesh: {fileID: 3209554841506446676, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &291122677
 GameObject:
   m_ObjectHideFlags: 0
@@ -11271,6 +11352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -11283,6 +11365,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &328459630
@@ -11297,10 +11382,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &328459631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11422,8 +11512,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &329682829
 GameObject:
   m_ObjectHideFlags: 0
@@ -11712,10 +11805,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &339367529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12023,10 +12121,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &353406690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17263,10 +17366,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &382177117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17740,10 +17848,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &400527556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17905,6 +18018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -17917,6 +18031,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &400935655
@@ -17931,10 +18048,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &400935656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18566,6 +18688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -18578,6 +18701,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &428213841
@@ -18592,10 +18718,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &428213842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18717,8 +18848,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &432899257
 GameObject:
   m_ObjectHideFlags: 0
@@ -19222,6 +19356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -19234,6 +19369,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &457822727
@@ -19248,10 +19386,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &457822728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19849,6 +19992,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &513591538
 GameObject:
   m_ObjectHideFlags: 0
@@ -19935,6 +20079,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513591538}
   m_Mesh: {fileID: -3181819488547803677, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &523781047
 GameObject:
   m_ObjectHideFlags: 0
@@ -20170,10 +20316,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &537874136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20568,10 +20719,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &566229325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21348,10 +21504,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &602746137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21600,6 +21761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -21612,6 +21774,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &611270649
@@ -21626,10 +21791,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &611270650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21879,10 +22049,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &613166678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22032,6 +22207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -22044,6 +22220,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &615555128
@@ -22058,10 +22237,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &615555129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22183,8 +22367,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &629318111
 GameObject:
   m_ObjectHideFlags: 0
@@ -22398,10 +22585,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &630974022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22873,10 +23065,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &659701973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23716,10 +23913,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &688691711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23880,6 +24082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -23892,6 +24095,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &692160808
@@ -23906,10 +24112,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &692160809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24031,8 +24242,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &692894897
 GameObject:
   m_ObjectHideFlags: 0
@@ -24227,10 +24441,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &712299350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24351,6 +24570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.04
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -24363,6 +24583,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!1 &729644655
@@ -24788,10 +25011,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &753790926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25546,10 +25774,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &820322930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26097,6 +26330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -26109,6 +26343,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &852759384
@@ -26123,10 +26360,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &852759385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26248,8 +26490,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &871242092
 GameObject:
   m_ObjectHideFlags: 0
@@ -27101,10 +27346,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &917621576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27368,10 +27618,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &932159214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27856,10 +28111,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &951928999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28006,10 +28266,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &952707494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28732,10 +28997,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &976955840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29078,10 +29348,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &992792315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34589,6 +34864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -34601,6 +34877,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1056645214
@@ -34615,10 +34894,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1056645215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34740,8 +35024,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1060368248
 GameObject:
   m_ObjectHideFlags: 0
@@ -35007,10 +35294,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1069806526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35168,10 +35460,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1073956761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35765,6 +36062,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091264440}
   m_Mesh: {fileID: 7591503566589240239, guid: 4764f71eddbb8fe4c8ebb0aa56af0952, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1102417715
 GameObject:
   m_ObjectHideFlags: 0
@@ -35851,6 +36149,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102417715}
   m_Mesh: {fileID: 2082908577722658346, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1114241375
 GameObject:
   m_ObjectHideFlags: 0
@@ -35906,6 +36206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -35918,6 +36219,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1114241378
@@ -35932,10 +36236,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1114241379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36057,8 +36366,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1122860380
 GameObject:
   m_ObjectHideFlags: 0
@@ -36413,6 +36725,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139605299}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1140791162
 GameObject:
   m_ObjectHideFlags: 0
@@ -36429,6 +36742,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1146707074
 GameObject:
   m_ObjectHideFlags: 0
@@ -36776,10 +37091,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1156219375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43053,10 +43373,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1227073613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44227,10 +44552,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1294559616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44670,10 +45000,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1302642638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45045,6 +45380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -45057,6 +45393,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &1314780485
@@ -45071,10 +45410,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1314780486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45400,10 +45744,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1321228359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45536,6 +45885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -45548,6 +45898,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!1 &1333210081
@@ -45660,10 +46013,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1336388796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46921,10 +47279,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1390602261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47332,10 +47695,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1408999330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47809,10 +48177,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1417750986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49506,11 +49879,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedCarPrefab: {fileID: 0}
+<<<<<<< Updated upstream
   selectedCarColor:
     r: 0
     g: 0
     b: 0
     a: 0
+=======
+  selectedCarColor: {r: 0, g: 0, b: 0, a: 0}
+>>>>>>> Stashed changes
   allCarPrefabs: []
 --- !u!4 &1540482630
 Transform:
@@ -49579,10 +49956,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1541836762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49852,10 +50234,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1543454789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50049,6 +50436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.02
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -50061,6 +50449,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!114 &1557138788
@@ -50075,10 +50466,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1557138789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50200,8 +50596,11 @@ MonoBehaviour:
   popSpeed: 6
   popScale: 1.07
   randomStartPhase: 1
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1558231835
 GameObject:
   m_ObjectHideFlags: 0
@@ -50621,10 +51020,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1578464780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51478,6 +51882,7 @@ MonoBehaviour:
   - {fileID: 999142527074807739, guid: 67c74211085fff14d8437b05267fe56a, type: 3}
   - {fileID: 3036525387513651774, guid: 8368d21b43deaa741a79008ab6d6c769, type: 3}
   colorOptions:
+<<<<<<< Updated upstream
   - r: 0
     g: 0.15686275
     b: 1
@@ -51514,6 +51919,17 @@ MonoBehaviour:
     g: 0
     b: 0
     a: 0
+=======
+  - {r: 0, g: 0.15686275, b: 1, a: 0}
+  - {r: 0.7254902, g: 0, b: 0.47058824, a: 0}
+  - {r: 0.9433962, g: 0.61515903, b: 0.048949808, a: 0}
+  - {r: 0.024919916, g: 0.7412851, b: 0.754717, a: 0}
+  - {r: 0.3254902, g: 1, b: 0.078431375, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 0.39607844, g: 0.39607844, b: 0.39607844, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+>>>>>>> Stashed changes
   hoverIcons:
   - {fileID: 1056645211}
   - {fileID: 615555125}
@@ -51528,7 +51944,10 @@ MonoBehaviour:
   carNameLabel: {fileID: 571704387}
   click: {fileID: 8300000, guid: 8c05bfd21e904334e8b4839bf2f5369d, type: 3}
   audioSource: {fileID: 512293911}
+<<<<<<< Updated upstream
   currentCarIndex: 0
+=======
+>>>>>>> Stashed changes
 --- !u!4 &1610212675
 Transform:
   m_ObjectHideFlags: 0
@@ -52232,6 +52651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.03
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -52244,6 +52664,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!114 &1654428271
@@ -52258,10 +52681,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1654428272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53022,10 +53450,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1682213887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53354,10 +53787,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1684673196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53591,10 +54029,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1699546993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59066,6 +59509,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream
 --- !u!1 &1764113069
 GameObject:
   m_ObjectHideFlags: 0
@@ -59152,6 +59596,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764113069}
   m_Mesh: {fileID: -4469861932973752845, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1764133593
 GameObject:
   m_ObjectHideFlags: 0
@@ -59204,10 +59650,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1764133596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59441,10 +59892,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1774903416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59624,10 +60080,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1785546611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60106,10 +60567,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1819828652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60261,6 +60727,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0832008f90a5324c885b2da8cb3ee3f, type: 3}
+<<<<<<< Updated upstream
 --- !u!4 &1824368568
 Transform:
   m_ObjectHideFlags: 0
@@ -60281,6 +60748,13 @@ Transform:
   - {fileID: 513591539}
   m_Father: {fileID: 106184060}
   m_LocalEulerAnglesHint: {x: 0, y: -87.554, z: 0}
+=======
+--- !u!4 &1824368568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4823433986342166866, guid: d0832008f90a5324c885b2da8cb3ee3f, type: 3}
+  m_PrefabInstance: {fileID: 1824368567}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1825213615
 GameObject:
   m_ObjectHideFlags: 0
@@ -61371,6 +61845,7 @@ Transform:
   - {fileID: 356074412}
   m_Father: {fileID: 876890534}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1860671968
 GameObject:
   m_ObjectHideFlags: 0
@@ -61457,6 +61932,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860671968}
   m_Mesh: {fileID: 222130085819025439, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1871143915
 GameObject:
   m_ObjectHideFlags: 0
@@ -61540,10 +62017,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1877498896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61874,10 +62356,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1882969366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62260,10 +62747,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &1914017581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64304,10 +64796,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &2034390616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64506,10 +65003,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &2048304656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70825,10 +71327,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &2126255216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70937,6 +71444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleUp: 1.1
   tweenTime: 0.2
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8392157
     g: 0.8392157
@@ -70949,6 +71457,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 0}
+>>>>>>> Stashed changes
   hoverSound: {fileID: 8300000, guid: 9e15bb8ef4d809d48b6aecd728a959b6, type: 3}
   audioSource: {fileID: 414787994}
 --- !u!1 &2130796245
@@ -71127,10 +71638,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &2136751713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71289,10 +71805,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510bf771d8e092a4f929ff809dd007c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &2136796226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71474,6 +71995,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140220699}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!4 &331827844202426596
 Transform:
   m_ObjectHideFlags: 0
@@ -71566,6 +72088,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!64 &586419940609299977
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71680,6 +72204,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!33 &960444019864608932
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -71812,6 +72337,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1526237742213476535
 GameObject:
   m_ObjectHideFlags: 0
@@ -71909,6 +72436,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+<<<<<<< Updated upstream
 --- !u!33 &1555262096339989384
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -71985,6 +72513,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!4 &1787336415453302803
 Transform:
   m_ObjectHideFlags: 0
@@ -72000,6 +72530,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!23 &1806941943717723297
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72062,6 +72593,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &2137716118656831746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72076,7 +72609,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 578160150689971035, guid: 24e392d3b843490498b4211943ee48bc, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: 130
+=======
+      value: 133.78757
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 578160150689971035, guid: 24e392d3b843490498b4211943ee48bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -72119,6 +72656,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e392d3b843490498b4211943ee48bc, type: 3}
+<<<<<<< Updated upstream
 --- !u!4 &2196587247874971275
 Transform:
   m_ObjectHideFlags: 0
@@ -72241,6 +72779,8 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 0
   m_ApplyActiveColorSpace: 0
+=======
+>>>>>>> Stashed changes
 --- !u!33 &2411205622248605475
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -72257,6 +72797,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5994929032896706615}
   m_Mesh: {fileID: 8410156745080363982, guid: cfe42ff7ac6f91d42ad1f64eec743464, type: 3}
+<<<<<<< Updated upstream
 --- !u!146 &2464537976105391324
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -77076,6 +77617,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5038752281200885390}
   m_Mesh: {fileID: 3010718757664825005, guid: 2c403376ef1fe604d8de45d141d39b07, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!54 &2968032205345370163
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77103,6 +77646,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
 --- !u!33 &2999525585073924185
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -77505,6 +78049,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7269297577837529183}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!198 &4211250293505765829
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -82228,6 +82774,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+<<<<<<< Updated upstream
 --- !u!4 &4340371367506299083
 Transform:
   m_ObjectHideFlags: 0
@@ -82451,6 +82998,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6041683974241425506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &5349981079844351666
 GameObject:
   m_ObjectHideFlags: 0
@@ -82469,6 +83018,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+<<<<<<< Updated upstream
 --- !u!1 &5359602516494883362
 GameObject:
   m_ObjectHideFlags: 0
@@ -82661,6 +83211,8 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 0
   m_ApplyActiveColorSpace: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &5994929031831232335
 GameObject:
   m_ObjectHideFlags: 0
@@ -82701,6 +83253,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!1 &6009461633035597121
 GameObject:
   m_ObjectHideFlags: 0
@@ -82719,6 +83272,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!33 &6010113430544810491
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -82727,6 +83282,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526237742213476535}
   m_Mesh: {fileID: 3613567641014311022, guid: c5bbd252d8ab52b47ae0d12563c74c39, type: 3}
+<<<<<<< Updated upstream
 --- !u!4 &6041683974241425506
 Transform:
   m_ObjectHideFlags: 0
@@ -83198,6 +83754,8 @@ Transform:
   - {fileID: 4140510680656883849}
   m_Father: {fileID: 6272731735728789799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!4 &7286415595673316387
 Transform:
   m_ObjectHideFlags: 0
@@ -83228,6 +83786,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -147.903}
+<<<<<<< Updated upstream
 --- !u!1 &7395884954557121505
 GameObject:
   m_ObjectHideFlags: 0
@@ -83406,6 +83965,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!23 &8064402879826257681
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -83452,6 +84013,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!4 &8263532446103718298
 Transform:
   m_ObjectHideFlags: 0
@@ -83501,6 +84063,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8263532446103718298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!4 &8608790263465082833
 Transform:
   m_ObjectHideFlags: 0
@@ -83516,6 +84080,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!4 &8672302644743861498
 Transform:
   m_ObjectHideFlags: 0
@@ -88305,6 +88870,8 @@ Transform:
   - {fileID: 8263532446103718298}
   m_Father: {fileID: 6272731735728789799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

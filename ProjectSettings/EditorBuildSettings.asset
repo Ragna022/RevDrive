@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: e8cd586f1955b0540a533c0ce5dcb748
-  - enabled: 0
-    path: Assets/CartoonTracksPack1/Track1/Demo Scenes/QuickRace.unity
-    guid: adb8beac2f60ff04e9bf860c83e428bb
+    path: Assets/Scenes/Home.unity
+    guid: b81ec9b586786604cb69203c9615eb26
   - enabled: 1
     path: Assets/Scenes/Quick Race.unity
     guid: cb1af969dade03c4191e4ccffe31484e
@@ -20,12 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Drift.unity
     guid: 0ad38c76fd9c06e40b3c0898fc931e0c
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/GarageScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
     path: Assets/Scenes/Demo Scenes/complete_track_demo.unity
     guid: 83760dd98fe89364daec0c8817772284
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e8cd586f1955b0540a533c0ce5dcb748
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

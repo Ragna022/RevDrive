@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5dc0d4cfb231ffb4d90b3d0f6cbfff90
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196121
+  packageName: Stylized Hypercars
+  packageVersion: 1.0
+  assetPath: Assets/HyperCars/Scenes/SampleScene_Profiles/GameObject Profile.asset
+  uploadId: 441457
