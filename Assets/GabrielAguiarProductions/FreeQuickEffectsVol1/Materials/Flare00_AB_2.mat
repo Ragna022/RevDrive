@@ -34,8 +34,11 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_CustomRenderQueue: -1
 =======
+=======
+>>>>>>> Stashed changes
   m_CustomRenderQueue: 3000
 >>>>>>> Stashed changes
   stringTagMap:
@@ -127,8 +130,13 @@ Material:
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+=======
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
+>>>>>>> Stashed changes
 =======
     - _DstBlend: 10
     - _DstBlendAlpha: 10
