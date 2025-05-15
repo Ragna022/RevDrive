@@ -830,6 +830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 532126404}
+  - component: {fileID: 532126405}
   m_Layer: 5
   m_Name: Nitro
   m_TagString: Untagged
@@ -860,6 +861,27 @@ RectTransform:
   m_AnchoredPosition: {x: -147.94, y: -3.1223}
   m_SizeDelta: {x: 159.18, y: 183.2229}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &532126405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532126403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2cb6cb395eee840b277b10a31553b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carController: {fileID: 1666328264}
+  backgroundFill: {fileID: 1573838208}
+  foregroundFill: {fileID: 1640263669}
+  readyColor: {r: 0.1, g: 0.6, b: 1, a: 1}
+  activeColor: {r: 1, g: 0.5019608, b: 0, a: 1}
+  chargingColor: {r: 0.9622642, g: 0.231456, b: 0.11347453, a: 1}
+  driftColor: {r: 1, g: 0.5, b: 0, a: 1}
+  fillSmoothness: 5
+  pulseSpeed: 2
 --- !u!1 &644926980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 642287924342879162, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
@@ -1873,7 +1895,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0
+  m_FillAmount: 0.914
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 1
@@ -1948,7 +1970,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 0.209
+  m_FillAmount: 0.059
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 1
@@ -7132,6 +7154,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6416425098950015123, guid: f3b91a1b9d3bd0f41af30fd573263395, type: 3}
   m_PrefabInstance: {fileID: 7388757692960018452}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2031026684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031026685}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031026685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031026684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.73808, y: -0.00002336502, z: -32.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2072993565
 GameObject:
   m_ObjectHideFlags: 0
@@ -22897,3 +22950,4 @@ SceneRoots:
   - {fileID: 2092955112}
   - {fileID: 1774044530}
   - {fileID: 166573117}
+  - {fileID: 2031026685}

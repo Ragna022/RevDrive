@@ -40,8 +40,8 @@ public class PrometeoCarController : MonoBehaviour
       //[Space(20)]
       //[Header("Turbo Settings")]
       private float turboMultiplier = 3.5f; // Multiplier for motor torque during turbo
-      private float turboDuration = 3f; // Duration of the turbo effect in seconds
-      private float turboCooldown = 5f; // Cooldown duration after using turbo
+      public float turboDuration = 3f; // Duration of the turbo effect in seconds
+      public float turboCooldown = 5f; // Cooldown duration after using turbo
       //[Space(10)] // Add space for better organization in Inspector
       [Range(0, 10000)] // Adjusted range for a potentially stronger effect
       public float turboForce = 5000f; // Additional forward force applied directly to Rigidbody during turbo
@@ -123,6 +123,20 @@ public class PrometeoCarController : MonoBehaviour
       public GameObject handbrakeButton;
       PrometeoTouchInput handbrakePTI;
 
+      [Header("Nitro Recharge System")]
+      [Range(0, 100)] 
+      public float maxNitro = 100f;              // Max nitro capacity
+      private float currentNitro = 0f;           // Current nitro amount
+      public float driftNitroGain = 2f;          // Nitro gained per second of drifting
+      public float speedNitroGain = 0.1f;        // Nitro gained per 10 km/h above threshold
+      public float minSpeedForGain = 30f;        // Minimum speed to gain nitro from speed
+      public float airTimeNitroGain = 5f;        // Nitro gained from jumps/air time
+      public bool nitroGainEnabled = true;       // Toggle nitro gain system
+
+      [Header("Nitro Usage Settings")]
+      [Range(0.1f, 1f)] 
+      public float minUseThreshold = 0.35f; // Minimum percentage required to use turbo
+
     //CAR DATA
 
       [HideInInspector]
@@ -150,6 +164,11 @@ public class PrometeoCarController : MonoBehaviour
       private bool isTurboActive = false;
       private float turboTimer = 0f;
       private float cooldownTimer = 0f;
+
+      private bool isGrounded;
+      private float airTime;
+      public float airTimeThreshold = 0.5f; // Minimum air time to count
+
 
       /*
       The following variables are used to store information about sideways friction of the wheels (such as
@@ -387,6 +406,7 @@ public class PrometeoCarController : MonoBehaviour
 
       }
 
+      CheckGroundStatus();
 
       // We call the method AnimateWheelMeshes() in order to match the wheel collider movements with the 3D meshes of the wheels.
       AnimateWheelMeshes();
@@ -409,6 +429,13 @@ public class PrometeoCarController : MonoBehaviour
              // If you want a flat boost regardless of how much throttle is held:
              // carRigidbody.AddForce(transform.forward * turboForce, ForceMode.Force);
         }
+
+      if(nitroGainEnabled && !isTurboActive && carSpeed > minSpeedForGain)
+      {
+          float speedBonus = (carSpeed - minSpeedForGain) * speedNitroGain * Time.fixedDeltaTime;
+          AddNitro(speedBonus);
+      }
+
     }
 
     // This method converts the car speed data from float to string, and then set the text of the UI carSpeedText with this value.
@@ -788,6 +815,12 @@ public class PrometeoCarController : MonoBehaviour
         }
       }
 
+      if(useEffects && isDrifting && nitroGainEnabled)
+      {
+          // Gain nitro while drifting
+          AddNitro(driftNitroGain * Time.deltaTime);
+      }
+
     }
 
     // This function is used to recover the traction of the car when the user has stopped using the car's handbrake.
@@ -834,16 +867,15 @@ public class PrometeoCarController : MonoBehaviour
      }
 
      // Method to activate turbo
-     public void ActivateTurbo()
-     {
-         // Only activate if not already active and not on cooldown
-         if (!isTurboActive && cooldownTimer <= 0f)
-         {
-             isTurboActive = true;
-             turboTimer = turboDuration; // Start the turbo timer
-             Debug.Log("Turbo Activated!"); // Optional: Add feedback
-         }
-     }
+    public void ActivateTurbo()
+{
+    if (!isTurboActive && cooldownTimer <= 0f && NitroPercent >= minUseThreshold)
+    {
+        isTurboActive = true;
+        currentNitro = Mathf.Max(0, currentNitro - (maxNitro * minUseThreshold));
+        turboTimer = turboDuration;
+    }
+}
 
      // Method to stop turbo
      private void StopTurbo()
@@ -853,10 +885,40 @@ public class PrometeoCarController : MonoBehaviour
          Debug.Log("Turbo Ended. Cooldown started."); // Optional: Add feedback
      }
 
+    public void AddNitro(float amount)
+    {
+        if(!isTurboActive) // Only gain nitro when not using turbo
+        {
+            currentNitro = Mathf.Clamp(currentNitro + amount, 0, maxNitro);
+        }
+    }
+
+    void CheckGroundStatus()
+    {
+        RaycastHit hit;
+        isGrounded = Physics.Raycast(transform.position, -Vector3.up, out hit, 0.5f);
+        
+        if(!isGrounded)
+        {
+            airTime += Time.deltaTime;
+        }
+        else if(airTime > airTimeThreshold)
+        {
+            AddNitro(airTime * airTimeNitroGain);
+            airTime = 0f;
+        }
+        else
+        {
+            airTime = 0f;
+        }
+    }
+
      // Public properties to check turbo status (optional, for UI or other scripts)
      public bool IsTurboActive { get { return isTurboActive; } }
      public float CooldownRemaining { get { return cooldownTimer; } }
      public float TurboDurationRemaining { get { return turboTimer; } }
+     public float CurrentNitro { get { return currentNitro; } }
+    public float NitroPercent { get { return currentNitro / maxNitro; } }
 
 
 }
