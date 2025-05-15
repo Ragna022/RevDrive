@@ -35,8 +35,11 @@ Material:
   m_DoubleSidedGI: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_CustomRenderQueue: -1
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_CustomRenderQueue: 3000
@@ -131,8 +134,13 @@ Material:
     - _DistortionStrengthScaled: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+=======
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
+>>>>>>> Stashed changes
 =======
     - _DstBlend: 10
     - _DstBlendAlpha: 10

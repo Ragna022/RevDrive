@@ -150,6 +150,7 @@ Material:
   m_AllowLocking: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &4680258647910972476
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -163,6 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 9
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

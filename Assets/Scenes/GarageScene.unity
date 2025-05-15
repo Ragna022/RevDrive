@@ -421,10 +421,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -779,6 +784,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -791,6 +797,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -813,10 +822,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -1287,6 +1301,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -1299,6 +1314,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -1321,10 +1339,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -1876,6 +1899,7 @@ MonoBehaviour:
   dotContainer: {fileID: 1593358279}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   activeDotColor:
     r: 1
     g: 1
@@ -1886,6 +1910,10 @@ MonoBehaviour:
     g: 0.5
     b: 0.5
     a: 1
+=======
+  activeDotColor: {r: 1, g: 1, b: 1, a: 1}
+  inactiveDotColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+>>>>>>> Stashed changes
 =======
   activeDotColor: {r: 1, g: 1, b: 1, a: 1}
   inactiveDotColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -1905,10 +1933,13 @@ MonoBehaviour:
   nitroSlider: {fileID: 2024412343}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   items: []
   dots: []
   viewport: {fileID: 0}
   currentIndex: -1
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2201,6 +2232,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -2213,6 +2245,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -2235,10 +2270,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -2370,8 +2410,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2621,6 +2664,10 @@ MonoBehaviour:
   touchArea:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    serializedVersion: 2
+>>>>>>> Stashed changes
 =======
     serializedVersion: 2
 >>>>>>> Stashed changes
@@ -2633,8 +2680,11 @@ MonoBehaviour:
     height: 0.5
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   isDragging: 0
   lastX: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -3249,10 +3299,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -3400,10 +3455,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -3610,10 +3670,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -3744,6 +3809,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8396226
     g: 0.8396226
@@ -3756,6 +3822,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
 >>>>>>> Stashed changes
@@ -10330,6 +10399,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -10342,6 +10412,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -10364,10 +10437,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -10731,6 +10809,7 @@ AudioSource:
     m_RotationOrder: 4
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &285582371
 GameObject:
   m_ObjectHideFlags: 0
@@ -10822,6 +10901,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285582371}
   m_Mesh: {fileID: 3209554841506446676, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -11435,6 +11516,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -11447,6 +11529,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -11469,10 +11554,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -11604,8 +11694,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -11900,10 +11993,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -12221,10 +12319,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -17471,10 +17574,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -17958,10 +18066,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -18133,6 +18246,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -18145,6 +18259,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -18167,10 +18284,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -18812,6 +18934,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -18824,6 +18947,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -18846,10 +18972,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -18981,8 +19112,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -19492,6 +19626,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -19504,6 +19639,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -19526,10 +19664,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -20137,6 +20280,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &513591538
 GameObject:
   m_ObjectHideFlags: 0
@@ -20223,6 +20367,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513591538}
   m_Mesh: {fileID: -3181819488547803677, guid: 93b188ea694fefb4b83b5683e3a2ac6a, type: 3}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -20464,10 +20610,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -20872,10 +21023,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -21662,10 +21818,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -21924,6 +22085,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -21936,6 +22098,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -21958,10 +22123,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -22221,10 +22391,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -22384,6 +22559,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -22396,6 +22572,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -22418,10 +22597,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -22553,8 +22737,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -22774,10 +22961,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -23259,10 +23451,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -24112,10 +24309,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -24286,6 +24488,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -24298,6 +24501,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -24320,10 +24526,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -24455,8 +24666,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -24657,10 +24871,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -24791,6 +25010,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -24803,6 +25023,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> Stashed changes
@@ -25236,10 +25459,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -26004,10 +26232,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -26565,6 +26798,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -26577,6 +26811,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -26599,10 +26836,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -26734,8 +26976,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -27593,10 +27838,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -27870,10 +28120,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -28368,10 +28623,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -28528,10 +28788,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -29264,10 +29529,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -29620,10 +29890,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -35141,6 +35416,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -35153,6 +35429,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -35175,10 +35454,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -35310,8 +35594,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -35583,10 +35870,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -35754,10 +36046,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -36361,6 +36658,7 @@ MeshFilter:
   m_Mesh: {fileID: 7591503566589240239, guid: 4764f71eddbb8fe4c8ebb0aa56af0952, type: 3}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1102417715
 GameObject:
   m_ObjectHideFlags: 0
@@ -36451,6 +36749,8 @@ MeshFilter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1114241375
 GameObject:
   m_ObjectHideFlags: 0
@@ -36508,6 +36808,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -36520,6 +36821,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -36542,10 +36846,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -36677,8 +36986,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -37039,6 +37351,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1140791162
 GameObject:
   m_ObjectHideFlags: 0
@@ -37055,6 +37368,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -37408,10 +37723,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -43695,10 +44015,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -44879,10 +45204,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -45332,10 +45662,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -45717,6 +46052,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -45729,6 +46065,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -45751,10 +46090,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -46090,10 +46434,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -46236,6 +46585,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -46248,6 +46598,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -46368,10 +46721,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -47639,10 +47997,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -48060,10 +48423,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -48547,10 +48915,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -50254,11 +50627,15 @@ MonoBehaviour:
   selectedCarPrefab: {fileID: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   selectedCarColor:
     r: 0
     g: 0
     b: 0
     a: 0
+=======
+  selectedCarColor: {r: 0, g: 0, b: 0, a: 0}
+>>>>>>> Stashed changes
 =======
   selectedCarColor: {r: 0, g: 0, b: 0, a: 0}
 >>>>>>> Stashed changes
@@ -50335,10 +50712,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -50618,10 +51000,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -50825,6 +51212,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8867924
     g: 0.8867924
@@ -50837,6 +51225,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
 >>>>>>> Stashed changes
@@ -50859,10 +51250,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -50994,8 +51390,11 @@ MonoBehaviour:
   randomStartPhase: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   timer: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -51421,10 +51820,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -52288,6 +52692,7 @@ MonoBehaviour:
   colorOptions:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - r: 0
     g: 0.15686275
     b: 1
@@ -52327,6 +52732,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   - {r: 0, g: 0.15686275, b: 1, a: 0}
   - {r: 0.7254902, g: 0, b: 0.47058824, a: 0}
   - {r: 0.9433962, g: 0.61515903, b: 0.048949808, a: 0}
@@ -52337,6 +52744,9 @@ MonoBehaviour:
   - {r: 0.39607844, g: 0.39607844, b: 0.39607844, a: 0}
   - {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -52356,7 +52766,10 @@ MonoBehaviour:
   audioSource: {fileID: 512293911}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   currentCarIndex: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -53066,6 +53479,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 1
     g: 1
@@ -53078,6 +53492,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> Stashed changes
@@ -53100,10 +53517,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -53874,10 +54296,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -54216,10 +54643,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -54463,10 +54895,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -59948,6 +60385,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1764113069
 GameObject:
   m_ObjectHideFlags: 0
@@ -60038,6 +60476,8 @@ MeshFilter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1764133593
 GameObject:
   m_ObjectHideFlags: 0
@@ -60092,10 +60532,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -60339,10 +60784,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -60532,10 +60982,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -61024,10 +61479,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -61189,6 +61649,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d0832008f90a5324c885b2da8cb3ee3f, type: 3}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!4 &1824368568
 Transform:
   m_ObjectHideFlags: 0
@@ -61212,12 +61673,17 @@ Transform:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!4 &1824368568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4823433986342166866, guid: d0832008f90a5324c885b2da8cb3ee3f, type: 3}
   m_PrefabInstance: {fileID: 1824368567}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -62313,6 +62779,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1860671968
 GameObject:
   m_ObjectHideFlags: 0
@@ -62403,6 +62870,8 @@ MeshFilter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1871143915
 GameObject:
   m_ObjectHideFlags: 0
@@ -62488,10 +62957,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -62832,10 +63306,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -63228,10 +63707,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -65282,10 +65766,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -65494,10 +65983,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -71823,10 +72317,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -71945,6 +72444,7 @@ MonoBehaviour:
   tweenTime: 0.2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hoverColor:
     r: 0.8392157
     g: 0.8392157
@@ -71957,6 +72457,9 @@ MonoBehaviour:
     b: 0
     a: 0
   img: {fileID: 0}
+=======
+  hoverColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 0}
+>>>>>>> Stashed changes
 =======
   hoverColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 0}
 >>>>>>> Stashed changes
@@ -72143,10 +72646,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -72315,10 +72823,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   originalScale: {x: 0, y: 0, z: 0}
   shrinkAmount: 0.9
   animationDuration: 0.1
   isScaled: 0
+=======
+  shrinkAmount: 0.9
+  animationDuration: 0.1
+>>>>>>> Stashed changes
 =======
   shrinkAmount: 0.9
   animationDuration: 0.1
@@ -72510,6 +73023,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!4 &331827844202426596
 Transform:
   m_ObjectHideFlags: 0
@@ -72602,6 +73116,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -72720,6 +73236,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!33 &960444019864608932
@@ -72858,6 +73375,8 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1526237742213476535
 GameObject:
   m_ObjectHideFlags: 0
@@ -72957,6 +73476,7 @@ ParticleSystemRenderer:
   m_MaskInteraction: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!33 &1555262096339989384
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -73037,6 +73557,8 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!4 &1787336415453302803
 Transform:
   m_ObjectHideFlags: 0
@@ -73052,6 +73574,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!23 &1806941943717723297
@@ -73120,6 +73643,8 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &2137716118656831746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73136,7 +73661,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       value: 130
+=======
+      value: 133.78757
+>>>>>>> Stashed changes
 =======
       value: 133.78757
 >>>>>>> Stashed changes
@@ -73185,6 +73714,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e392d3b843490498b4211943ee48bc, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &2196587247874971275
@@ -73313,6 +73843,8 @@ TrailRenderer:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!33 &2411205622248605475
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -73329,6 +73861,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5994929032896706615}
   m_Mesh: {fileID: 8410156745080363982, guid: cfe42ff7ac6f91d42ad1f64eec743464, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!146 &2464537976105391324
@@ -78154,6 +78687,8 @@ MeshFilter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!54 &2968032205345370163
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -78181,6 +78716,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!33 &2999525585073924185
@@ -78585,6 +79121,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7269297577837529183}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -83314,6 +83852,7 @@ ParticleSystem:
     vectorLabel1_3: W
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!4 &4340371367506299083
 Transform:
   m_ObjectHideFlags: 0
@@ -83541,6 +84080,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1 &5349981079844351666
 GameObject:
   m_ObjectHideFlags: 0
@@ -83559,6 +84100,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!1 &5359602516494883362
@@ -83757,6 +84299,8 @@ TrailRenderer:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1 &5994929031831232335
 GameObject:
   m_ObjectHideFlags: 0
@@ -83799,6 +84343,7 @@ GameObject:
   m_IsActive: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &6009461633035597121
 GameObject:
   m_ObjectHideFlags: 0
@@ -83821,6 +84366,8 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!33 &6010113430544810491
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -83829,6 +84376,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526237742213476535}
   m_Mesh: {fileID: 3613567641014311022, guid: c5bbd252d8ab52b47ae0d12563c74c39, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &6041683974241425506
@@ -84306,6 +84854,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!4 &7286415595673316387
 Transform:
   m_ObjectHideFlags: 0
@@ -84336,6 +84886,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -147.903}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!1 &7395884954557121505
@@ -84520,6 +85071,8 @@ MeshRenderer:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!23 &8064402879826257681
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -84566,6 +85119,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &8263532446103718298
@@ -84621,6 +85175,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!4 &8608790263465082833
 Transform:
   m_ObjectHideFlags: 0
@@ -84636,6 +85192,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 980803960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &8672302644743861498
@@ -89427,6 +89984,8 @@ Transform:
   - {fileID: 8263532446103718298}
   m_Father: {fileID: 6272731735728789799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
