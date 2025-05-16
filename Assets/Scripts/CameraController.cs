@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
     public float distance = 2f;
 
     [Header("Vehicle References")]
-    public GameObject attachedVehicle;
+    private GameObject attachedVehicle;
     private PrometeoCarController controllerRef;
 
     [Header("Camera Positions")]
@@ -28,11 +28,20 @@ public class CameraController : MonoBehaviour
         cameraPos[2] = new Vector2(8.9f, 1.2f);
         cameraPos[3] = new Vector2(5f, 2f); // optional extra view
 
-        if (attachedVehicle == null)
-        {
-            Debug.LogError("No attached vehicle assigned!");
+        
+		attachedVehicle = GameObject.FindWithTag("Player");
+
+		if(attachedVehicle == null)
+		{
+			Debug.LogWarning("Car Transform target not found");
             return;
-        }
+		}
+
+        // if (attachedVehicle == null)
+        // {
+        //     Debug.LogError("No attached vehicle assigned!");
+        //     return;
+        // }
 
         focusPoint = attachedVehicle.transform.Find("focus")?.gameObject;
         if (focusPoint == null)

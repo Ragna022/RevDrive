@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class CarSpawner : MonoBehaviour
 {
     [SerializeField] private Vector3[] spawnPoints; // Assign manually in inspector for each car
+    [SerializeField] private Vector3 spawnRotationEuler; // Set this once to make all cars face front
 
     void Start()
     {
@@ -20,7 +21,8 @@ public class CarSpawner : MonoBehaviour
             else
                 Debug.LogWarning("Selected index is out of range of spawnPoints. Defaulting to Vector3.zero.");
 
-            GameObject car = Instantiate(carPrefab, spawnPosition, Quaternion.identity);
+            Quaternion spawnRotation = Quaternion.Euler(spawnRotationEuler);
+            GameObject car = Instantiate(carPrefab, spawnPosition, spawnRotation);
 
             // Apply the color to the car's body
             var renderers = car.GetComponentsInChildren<Renderer>();

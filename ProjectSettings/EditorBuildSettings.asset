@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: b81ec9b586786604cb69203c9615eb26
   - enabled: 1
-    path: Assets/Scenes/Quick Race.unity
+    path: Assets/Scenes/QuickRace.unity
     guid: cb1af969dade03c4191e4ccffe31484e
   - enabled: 1
     path: Assets/Scenes/TimeTrial.unity

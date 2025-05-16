@@ -10,7 +10,7 @@ public class UI_Manage : MonoBehaviour
     public float flyInSpeed = 0.5f, yShootPos, delayBetween = 0.2f;   
     public Vector2 offscreenOffset = new Vector2(830, 0); 
     public AudioClip swooshSound, click;          
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     [Header("Loading Screen")]
     [SerializeField] private GameObject HomeMenu, loadingUI;
@@ -19,42 +19,43 @@ public class UI_Manage : MonoBehaviour
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         AnimateButton();
     }
 
-    void AnimateButton()
+        void AnimateButton()
     {
         Sequence sequence = DOTween.Sequence();
+        float initialDelay = 0.1f; // Delay before first button animates (prevents instant swoosh)
 
-        foreach (RectTransform btn in buttons)
+        for (int i = 0; i < buttons.Length; i++)
         {
+            RectTransform btn = buttons[i];
             Vector2 originalPos = btn.anchoredPosition;
-            Vector2 overshootPos = originalPos - new Vector2(0, yShootPos); // go past then come back
+            Vector2 overshootPos = originalPos - new Vector2(0, yShootPos);
 
             // Start offscreen
             btn.anchoredPosition = originalPos + offscreenOffset;
 
-            // Animate to overshoot
-            sequence.Append(btn.DOAnchorPos(overshootPos, flyInSpeed * 0.7f).SetEase(Ease.OutCubic));
+            float buttonDelay = initialDelay + i * delayBetween;
 
-            // Play swoosh sound *at the same time* as overshoot animation starts
-            sequence.Join(DOVirtual.DelayedCall(0f, () =>
-            {
-                if (swooshSound && audioSource)
-                    audioSource.PlayOneShot(swooshSound);
-            }));
+            // Animate to overshoot (with swoosh)
+            sequence.Insert(buttonDelay, btn.DOAnchorPos(overshootPos, flyInSpeed * 0.7f)
+                .SetEase(Ease.OutCubic)
+                .OnStart(() =>
+                {
+                    if (swooshSound && audioSource)
+                        audioSource.PlayOneShot(swooshSound);
+                }));
 
             // Animate bounce-back
-            sequence.Append(btn.DOAnchorPos(originalPos, flyInSpeed * 0.3f).SetEase(Ease.OutBack));
-
-            // Add delay between each button's animation
-            sequence.AppendInterval(delayBetween);
+            sequence.Insert(buttonDelay + (flyInSpeed * 0.7f), btn.DOAnchorPos(originalPos, flyInSpeed * 0.3f)
+                .SetEase(Ease.OutBack));
         }
 
-        // Play the sequence
         sequence.Play();
     }
+
+
 
     // Game Mode Buttons
 
@@ -96,6 +97,7 @@ public class UI_Manage : MonoBehaviour
     IEnumerator LoadSceneAsync(string sceneName)
     {
         string[] fakeMessages = {
+            "Can't rush greatness...",
             "Here goes nothing..!",
             "Your chance, don't blow it mate...",
             "Fueling the fury...",

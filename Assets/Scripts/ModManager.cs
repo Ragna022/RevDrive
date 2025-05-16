@@ -9,11 +9,13 @@ public class ModManager : MonoBehaviour
     [SerializeField] private Color[] colorOptions;
     [SerializeField] private GameObject[] hoverIcons;
     [SerializeField] public Material bodyMaterial;
-    [SerializeField] private Text carNameLabel;    
-    public AudioClip click;          
+    [SerializeField] private Text carNameLabel;
+    public AudioClip click;
     public AudioSource audioSource;
 
     private int currentCarIndex = 0;
+
+    private const string ColorPrefKey = "SelectedColorIndex";
 
     void Start()
     {
@@ -23,6 +25,10 @@ public class ModManager : MonoBehaviour
         CarSelectionManager.Instance.allCarPrefabs = carPrefabs;
 
         ShowCarModels(0);
+
+        // Load last selected color index
+        int savedColorIndex = PlayerPrefs.GetInt(ColorPrefKey, 0);
+        ChangeColour(savedColorIndex); // Sets color and hover icon
     }
 
     public void ShowCarModels(int index)
@@ -48,22 +54,22 @@ public class ModManager : MonoBehaviour
         bodyMaterial.color = selectedColor;
 
         CarSelectionManager.Instance.selectedCarColor = selectedColor;
+
+        // Save color index to PlayerPrefs
+        PlayerPrefs.SetInt(ColorPrefKey, colorIndex);
+        PlayerPrefs.Save();
+
+        // Update hover icon
+        ShowHoverIcon(colorIndex);
     }
 
     public void ShowHoverIcon(int hoverIndex)
     {
         if (hoverIndex < 0 || hoverIndex >= hoverIcons.Length) return;
-        
-        foreach(var obj in hoverIcons)
+
+        for (int i = 0; i < hoverIcons.Length; i++)
         {
-            if(obj == hoverIcons[hoverIndex])
-            {
-                obj.SetActive(true);
-            }
-              else
-            {
-                obj.SetActive(false);
-            }
+            hoverIcons[i].SetActive(i == hoverIndex);
         }
     }
 
@@ -81,4 +87,3 @@ public class ModManager : MonoBehaviour
             audioSource.PlayOneShot(click);
     }
 }
-

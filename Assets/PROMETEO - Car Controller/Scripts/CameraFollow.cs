@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
 
-	public Transform carTransform;
+	private Transform carTransform;
 	[Range(1, 10)]
 	public float followSpeed = 2;
 	[Range(1, 10)]
@@ -14,6 +14,18 @@ public class CameraFollow : MonoBehaviour {
 	Vector3 absoluteInitCameraPosition;
 
 	void Start(){
+
+		GameObject car = GameObject.FindWithTag("Player");
+
+		if(car != null)
+		{
+			carTransform = car.transform;
+		}
+		else
+		{
+			Debug.LogWarning("Car Transform target not found");
+		}
+		
 		initialCameraPosition = gameObject.transform.position;
 		initialCarPosition = carTransform.position;
 		absoluteInitCameraPosition = initialCameraPosition - initialCarPosition;
