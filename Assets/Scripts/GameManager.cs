@@ -2,24 +2,40 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
 public class GameManager : MonoBehaviour
 {
-    public PrometeoCarController carController;
+    [Header("UI References")]
     public Image speedometerFillImage; // This replaces the needle GameObject
+    [Space(10)]
+    [Header("Turbo Effect")]
+    public GameObject turboEffectGameObject; // Drag the GameObject to enable/disable here
 
     private float startPosition = 212f, endPosition = -35.7f;
     private float desiredPosition;
+    private float vehicleSpeed;
+    private PrometeoCarController carController;
 
-    public float vehicleSpeed;
-
-    [Space(10)] // Add space in Inspector
-    [Header("Turbo Effect GameObject")] // Header for clarity
-    public GameObject turboEffectGameObject; // Drag the GameObject to enable/disable here
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Find the player vehicle by tag
+        GameObject playerVehicle = GameObject.FindGameObjectWithTag("Player");
+        
+        if (playerVehicle == null)
+        {
+            Debug.LogError("No GameObject with 'Player' tag found in the scene!");
+            enabled = false; // Disable the script if no player found
+            return;
+        }
+
+        carController = playerVehicle.GetComponent<PrometeoCarController>();
+        
+        if (carController == null)
+        {
+            Debug.LogError("No PrometeoCarController component found on the player vehicle!");
+            enabled = false; // Disable the script if no controller found
+            return;
+        }
+
         // Optional: Ensure the turbo effect GameObject is initially off
         if (turboEffectGameObject != null)
         {
@@ -27,7 +43,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Check for turbo input (e.g., Left Shift key)
@@ -39,33 +54,31 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // NEW CODE: Control the turbo effect GameObject's active state
+        // Control the turbo effect GameObject's active state
         if (carController != null && turboEffectGameObject != null)
         {
-            // Set the active state of the GameObject to match the turbo active state
             turboEffectGameObject.SetActive(carController.IsTurboActive);
         }
     }
 
     void FixedUpdate()
-{
-    if (carController != null)
     {
-        vehicleSpeed = carController.carSpeed;
-        UpdateSpeedometerFill(); // Updated method
+        if (carController != null)
+        {
+            vehicleSpeed = carController.carSpeed;
+            UpdateSpeedometerFill();
+        }
     }
-}
 
-void UpdateSpeedometerFill()
-{
-    if (speedometerFillImage != null)
+    void UpdateSpeedometerFill()
     {
-        // Assuming maximum speed is 180, normalize between 0 and 1
-        float normalizedSpeed = Mathf.Clamp01(vehicleSpeed / 180f);
-        speedometerFillImage.fillAmount = normalizedSpeed;
+        if (speedometerFillImage != null)
+        {
+            // Assuming maximum speed is 180, normalize between 0 and 1
+            float normalizedSpeed = Mathf.Clamp01(vehicleSpeed / 180f);
+            speedometerFillImage.fillAmount = normalizedSpeed;
+        }
     }
-}
-
 
     public void Home()
     {

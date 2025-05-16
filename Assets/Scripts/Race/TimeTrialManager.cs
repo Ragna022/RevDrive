@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class TimeTrialManager : MonoBehaviour
 {
     public CountdownText countdown;
-    public GameObject playerVehicle;
     public Text timerText;
     public GameObject finishUI;
     public Text finalTimeText;
@@ -14,6 +13,7 @@ public class TimeTrialManager : MonoBehaviour
     public AudioSource engineAudioSource;
     public AudioSource driftAudioSource;
 
+    private GameObject playerVehicle; // Now private since we'll find it automatically
     private float timer = 0f;
     private bool raceStarted = false;
 
@@ -21,6 +21,15 @@ public class TimeTrialManager : MonoBehaviour
 
     void Start()
     {
+        // Find the player vehicle by tag
+        playerVehicle = GameObject.FindGameObjectWithTag("Player");
+        
+        if (playerVehicle == null)
+        {
+            Debug.LogError("No GameObject with 'Player' tag found in the scene!");
+            return;
+        }
+
         playerVehicle.GetComponent<PrometeoCarController>().enabled = false;
         finishUI.SetActive(false);
         StartCoroutine(StartTimeTrial());
@@ -45,7 +54,7 @@ public class TimeTrialManager : MonoBehaviour
 
     public void FinishRace()
     {
-        if (!raceStarted) return;
+        if (!raceStarted || playerVehicle == null) return;
 
         raceStarted = false;
 
@@ -71,17 +80,20 @@ public class TimeTrialManager : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(0.25f);
 
-        playerVehicle.GetComponent<PrometeoCarController>().enabled = false;
+        if (playerVehicle != null)
+        {
+            playerVehicle.GetComponent<PrometeoCarController>().enabled = false;
 
-        // Stop all engine sounds
-        AudioSource[] audioSources = playerVehicle.GetComponentsInChildren<AudioSource>();
-        if (engineAudioSource != null)
-            engineAudioSource.mute = true;
+            // Stop all engine sounds
+            AudioSource[] audioSources = playerVehicle.GetComponentsInChildren<AudioSource>();
+            if (engineAudioSource != null)
+                engineAudioSource.mute = true;
 
-        if (driftAudioSource != null)
-            driftAudioSource.mute = true;
+            if (driftAudioSource != null)
+                driftAudioSource.mute = true;
 
-        Destroy(playerVehicle); // Optional: still destroy it visually
+            Destroy(playerVehicle);
+        }
 
         finishUI.SetActive(true);
     }

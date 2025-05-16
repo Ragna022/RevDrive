@@ -7,33 +7,35 @@ public class CameraController : MonoBehaviour
     [Range(2f, 3.5f)] public float forwardDistance = 3f;
     public float distance = 2f;
 
-    [Header("Vehicle References")]
-    public GameObject attachedVehicle;
-    private PrometeoCarController controllerRef;
-
     [Header("Camera Positions")]
     public Vector2[] cameraPos;
 
     private int locationIndicator = 0;
     private float accelerationEffect;
-
     private Transform target;
     private GameObject focusPoint;
+    private PrometeoCarController controllerRef;
+    private GameObject attachedVehicle; // Now private since we'll find it automatically
 
     void Start()
     {
+        // Initialize camera positions
         cameraPos = new Vector2[4];
         cameraPos[0] = new Vector2(2f, 0f);
         cameraPos[1] = new Vector2(7.5f, 0.5f);
         cameraPos[2] = new Vector2(8.9f, 1.2f);
         cameraPos[3] = new Vector2(5f, 2f); // optional extra view
 
+        // Find the player vehicle by tag
+        attachedVehicle = GameObject.FindGameObjectWithTag("Player");
+        
         if (attachedVehicle == null)
         {
-            Debug.LogError("No attached vehicle assigned!");
+            Debug.LogError("No GameObject with 'Player' tag found in the scene!");
             return;
         }
 
+        // Find the focus point
         focusPoint = attachedVehicle.transform.Find("focus")?.gameObject;
         if (focusPoint == null)
         {
@@ -43,6 +45,11 @@ public class CameraController : MonoBehaviour
 
         target = focusPoint.transform;
         controllerRef = attachedVehicle.GetComponent<PrometeoCarController>();
+        
+        if (controllerRef == null)
+        {
+            Debug.LogError("No PrometeoCarController component found on the player vehicle!");
+        }
     }
 
     void FixedUpdate()

@@ -6,14 +6,42 @@ public class DriftScoreManager : MonoBehaviour
     [Header("Drift Settings")]
     public float pointsPerSecond = 10f;
 
-    [Header("References")]
-    public PrometeoCarController carController;
+    [Header("UI References")]
     public Text hudDriftScoreText;
     public DriftPopup popupPrefab;
 
     private float totalScore = 0f;
     private float currentCombo = 0f;
     private DriftPopup currentPopup;
+    private PrometeoCarController carController;
+
+    void Start()
+    {
+        // Find the player vehicle by tag
+        GameObject playerVehicle = GameObject.FindGameObjectWithTag("Player");
+        
+        if (playerVehicle == null)
+        {
+            Debug.LogError("No GameObject with 'Player' tag found in the scene!");
+            enabled = false; // Disable the script if no player found
+            return;
+        }
+
+        carController = playerVehicle.GetComponent<PrometeoCarController>();
+        
+        if (carController == null)
+        {
+            Debug.LogError("No PrometeoCarController component found on the player vehicle!");
+            enabled = false; // Disable the script if no controller found
+            return;
+        }
+
+        // Initialize HUD text
+        if (hudDriftScoreText != null)
+        {
+            hudDriftScoreText.text = "Drift: 0";
+        }
+    }
 
     void Update()
     {
@@ -30,7 +58,11 @@ public class DriftScoreManager : MonoBehaviour
             totalScore += pointsPerSecond * Time.deltaTime;
 
             currentPopup.UpdatePopup(Mathf.FloorToInt(currentCombo));
-            hudDriftScoreText.text = "Drift: " + Mathf.FloorToInt(totalScore);
+            
+            if (hudDriftScoreText != null)
+            {
+                hudDriftScoreText.text = "Drift: " + Mathf.FloorToInt(totalScore);
+            }
         }
         else
         {
@@ -45,13 +77,18 @@ public class DriftScoreManager : MonoBehaviour
 
     void StartDriftPopup()
     {
+        if (popupPrefab == null || carController == null) return;
+        
         currentPopup = Instantiate(popupPrefab, carController.transform.position + Vector3.up * 2f, Quaternion.identity);
         currentPopup.Attach(carController.transform);
     }
 
     void EndDriftPopup()
     {
-        currentPopup.EndPopup();
-        currentPopup = null;
+        if (currentPopup != null)
+        {
+            currentPopup.EndPopup();
+            currentPopup = null;
+        }
     }
 }

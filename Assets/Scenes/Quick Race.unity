@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 178059779}
   m_Layer: 5
   m_Name: Speed
-  m_TagString: Untagged
+  m_TagString: Speed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -873,7 +873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2cb6cb395eee840b277b10a31553b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 1666328264}
   backgroundFill: {fileID: 1573838208}
   foregroundFill: {fileID: 1640263669}
   readyColor: {r: 0.1, g: 0.6, b: 1, a: 1}
@@ -882,11 +881,6 @@ MonoBehaviour:
   driftColor: {r: 1, g: 0.5, b: 0, a: 1}
   fillSmoothness: 5
   pulseSpeed: 2
---- !u!1 &644926980 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 642287924342879162, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
-  m_PrefabInstance: {fileID: 129950721}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &657468152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,9 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cfa0adbb9593994cae462e53b0efde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 1666328264}
   speedometerFillImage: {fileID: 979302531}
-  vehicleSpeed: 0
   turboEffectGameObject: {fileID: 6285059777468186940}
 --- !u!4 &785115898
 Transform:
@@ -1043,7 +1035,6 @@ MonoBehaviour:
   countdownText: {fileID: 292955236}
   delayBetweenSteps: 1
   scaleUp: 1.5
-  carController: {fileID: 1666328264}
 --- !u!4 &829086364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8736022052560050535, guid: 2b742cea3010f98448c0976eb0724a22, type: 3}
@@ -6821,17 +6812,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 261786959625234688, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
   m_PrefabInstance: {fileID: 129950721}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1666328264 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 627556911, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
-  m_PrefabInstance: {fileID: 129950721}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644926980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0fefceefe666bb4682b272ec8c5bdd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1677194890
 GameObject:
   m_ObjectHideFlags: 0
@@ -7368,7 +7348,6 @@ MonoBehaviour:
   lerpTime: 2
   forwardDistance: 3.5
   distance: 4
-  attachedVehicle: {fileID: 644926980}
   cameraPos:
   - {x: 0, y: 0}
   - {x: 0, y: 0}

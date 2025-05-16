@@ -4,30 +4,46 @@ using System.Collections;
 
 public class CountdownText : MonoBehaviour
 {
+    [Header("UI Settings")]
     public Text countdownText; // drag your Text UI element here
     public float delayBetweenSteps = 1f;
     public float scaleUp = 1.5f;
 
     private string[] countdownSequence = { "READY!", "1", "2", "3", "GO!" };
-    public PrometeoCarController carController;
+    private PrometeoCarController carController;
 
     void Start()
     {
-        // Ensure the car controller is disabled at the start
-        if (carController != null)
+        // Find the player vehicle by tag
+        GameObject playerVehicle = GameObject.FindGameObjectWithTag("Player");
+        
+        if (playerVehicle == null)
         {
-            carController.enabled = false;
-        }
-        else
-        {
-            Debug.LogWarning("Car Controller reference not set in CountdownText script.");
+            Debug.LogError("No GameObject with 'Player' tag found in the scene!");
+            return;
         }
 
+        carController = playerVehicle.GetComponent<PrometeoCarController>();
+        
+        if (carController == null)
+        {
+            Debug.LogError("No PrometeoCarController component found on the player vehicle!");
+            return;
+        }
+
+        // Ensure the car controller is disabled at the start
+        carController.enabled = false;
         StartCoroutine(PlayCountdown());
     }
 
     public IEnumerator PlayCountdown()
     {
+        if (countdownText == null)
+        {
+            Debug.LogError("Countdown Text reference not set!");
+            yield break;
+        }
+
         countdownText.gameObject.SetActive(true);
 
         foreach (string step in countdownSequence)
@@ -54,8 +70,5 @@ public class CountdownText : MonoBehaviour
         {
             carController.enabled = true;
         }
-
-        // Optional: trigger something after countdown
-        // e.g., carController.enabled = true;
     }
 }

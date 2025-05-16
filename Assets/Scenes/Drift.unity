@@ -827,7 +827,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2cb6cb395eee840b277b10a31553b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 1666328264}
   backgroundFill: {fileID: 2115654708}
   foregroundFill: {fileID: 765338382}
   readyColor: {r: 0.1, g: 0.6, b: 1, a: 1}
@@ -992,11 +991,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615521014}
   m_CullTransparentMesh: 1
---- !u!1 &644926980 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 642287924342879162, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
-  m_PrefabInstance: {fileID: 129950721}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &676689589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,7 +1111,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 190
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1148,8 +1142,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 336.06982, y: -171.54602}
-  m_SizeDelta: {x: 202.5683, y: 74.2524}
+  m_AnchoredPosition: {x: 342.98846, y: -165.15225}
+  m_SizeDelta: {x: 166.5569, y: 48.2434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &719359545 stripped
 Transform:
@@ -1261,9 +1255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cfa0adbb9593994cae462e53b0efde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 1666328264}
   speedometerFillImage: {fileID: 1083506199}
-  vehicleSpeed: 0
   turboEffectGameObject: {fileID: 6285059777468186940}
 --- !u!4 &785115898
 Transform:
@@ -1295,7 +1287,6 @@ MonoBehaviour:
   countdownText: {fileID: 292955236}
   delayBetweenSteps: 1
   scaleUp: 1.5
-  carController: {fileID: 1666328264}
 --- !u!4 &829086364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8736022052560050535, guid: 2b742cea3010f98448c0976eb0724a22, type: 3}
@@ -7172,17 +7163,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 261786959625234688, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
   m_PrefabInstance: {fileID: 129950721}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1666328264 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 627556911, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
-  m_PrefabInstance: {fileID: 129950721}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644926980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0fefceefe666bb4682b272ec8c5bdd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1677194890
 GameObject:
   m_ObjectHideFlags: 0
@@ -7323,7 +7303,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsPerSecond: 10
-  carController: {fileID: 1666328264}
   hudDriftScoreText: {fileID: 716041155}
   popupPrefab: {fileID: 9070790947374574048, guid: 1f0057addc2364d4d8cf5ae7ced649bf, type: 3}
 --- !u!4 &1690974827
@@ -7656,7 +7635,6 @@ MonoBehaviour:
   lerpTime: 2
   forwardDistance: 3.5
   distance: 4
-  attachedVehicle: {fileID: 644926980}
   cameraPos:
   - {x: 0, y: 0}
   - {x: 0, y: 0}

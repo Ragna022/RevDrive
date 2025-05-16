@@ -3,8 +3,7 @@ using UnityEngine.UI;
 
 public class NitroBarController : MonoBehaviour
 {
-    [Header("References")]
-    [SerializeField] private PrometeoCarController carController;
+    [Header("UI References")]
     [SerializeField] private Image backgroundFill;  // Shows remaining nitro (decreases during use)
     [SerializeField] private Image foregroundFill; // Shows consumed nitro (increases during use)
     
@@ -18,6 +17,30 @@ public class NitroBarController : MonoBehaviour
     [SerializeField] private float fillSmoothness = 10f;
     [SerializeField] private float pulseSpeed = 1.5f;
     
+    private PrometeoCarController carController;
+
+    private void Start()
+    {
+        // Find the player vehicle by tag
+        GameObject playerVehicle = GameObject.FindGameObjectWithTag("Player");
+        
+        if (playerVehicle == null)
+        {
+            Debug.LogError("No GameObject with 'Player' tag found in the scene!");
+            enabled = false; // Disable the script if no player found
+            return;
+        }
+
+        carController = playerVehicle.GetComponent<PrometeoCarController>();
+        
+        if (carController == null)
+        {
+            Debug.LogError("No PrometeoCarController component found on the player vehicle!");
+            enabled = false; // Disable the script if no controller found
+            return;
+        }
+    }
+    
     private void Update()
     {
         UpdateNitroVisuals();
@@ -25,6 +48,8 @@ public class NitroBarController : MonoBehaviour
     
     private void UpdateNitroVisuals()
     {
+        if (carController == null) return;
+        
         float nitroPercent = carController.NitroPercent;
         
         // BACKGROUND shows remaining nitro (1.0 when full, 0.0 when empty)
@@ -48,6 +73,8 @@ public class NitroBarController : MonoBehaviour
     
     private void UpdateBarColors(float nitroPercent)
     {
+        if (carController == null) return;
+        
         if(carController.IsTurboActive)
         {
             // Turbo active - cyan glow

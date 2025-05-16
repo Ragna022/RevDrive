@@ -171,7 +171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2cb6cb395eee840b277b10a31553b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 1666328264}
   backgroundFill: {fileID: 1313444620}
   foregroundFill: {fileID: 1599245575}
   readyColor: {r: 0.1, g: 0.6, b: 1, a: 1}
@@ -1813,7 +1812,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdown: {fileID: 785115899}
-  playerVehicle: {fileID: 644926980}
   timerText: {fileID: 901981372}
   finishUI: {fileID: 101757445}
   finalTimeText: {fileID: 815231830}
@@ -3684,7 +3682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1651495435
 Transform:
   m_ObjectHideFlags: 0
@@ -9421,7 +9419,6 @@ MonoBehaviour:
   lerpTime: 2
   forwardDistance: 3.5
   distance: 4
-  attachedVehicle: {fileID: 644926980}
   cameraPos:
   - {x: 0, y: 0}
   - {x: 0, y: 0}
