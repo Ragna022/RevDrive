@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 332f77d0f151dc74d9f511d90c67a5b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Materials/PolyStangs/PolyStang_2/Lines.mat
+  uploadId: 655332

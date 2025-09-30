@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ca630909a56d0574a9f183c3badb9040
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Prefabs/Camera/CameraMobile.prefab
+  uploadId: 655332

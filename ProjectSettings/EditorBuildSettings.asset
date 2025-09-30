@@ -23,9 +23,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Demo Scenes/complete_track_demo.unity
     guid: 83760dd98fe89364daec0c8817772284
+<<<<<<< Updated upstream
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+=======
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e8cd586f1955b0540a533c0ce5dcb748
+  - enabled: 1
+    path: Assets/Samples/Solana SDK/1.2.8/Sample Wallet/Solana Wallet/Scenes/wallet_scene.unity
+    guid: 8b3834b526b1d9f4687af110b68aeda9
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

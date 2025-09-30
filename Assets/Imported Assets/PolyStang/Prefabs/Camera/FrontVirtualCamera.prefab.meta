@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 61c2df2971979e349925519c7a645261
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Prefabs/Camera/FrontVirtualCamera.prefab
+  uploadId: 655332

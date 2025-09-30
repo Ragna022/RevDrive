@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63d8fadaa696ddc43a6a197097a39805
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Materials/PolyStangs/PolyStang_1/Car.mat
+  uploadId: 655332

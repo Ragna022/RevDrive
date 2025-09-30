@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5a33a7cb6837b0649954ba1f0c912c3d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Prefabs/CustomStang.prefab
+  uploadId: 655332

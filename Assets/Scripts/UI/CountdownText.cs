@@ -4,12 +4,17 @@ using System.Collections;
 
 public class CountdownText : MonoBehaviour
 {
+<<<<<<< Updated upstream
     [Header("UI Settings")]
     public Text countdownText; // drag your Text UI element here
+=======
+    public Text countdownText;
+>>>>>>> Stashed changes
     public float delayBetweenSteps = 1f;
     public float scaleUp = 1.5f;
 
     private string[] countdownSequence = { "READY!", "1", "2", "3", "GO!" };
+<<<<<<< Updated upstream
     private PrometeoCarController carController;
 
     void Start()
@@ -34,14 +39,48 @@ public class CountdownText : MonoBehaviour
         // Ensure the car controller is disabled at the start
         carController.enabled = false;
         StartCoroutine(PlayCountdown());
+=======
+    public PrometeoCarController carController;
+    
+    public System.Action OnCountdownComplete;
+
+    void Start()
+    {
+        // Automatically find the car controller
+        FindCarController();
+        countdownText.gameObject.SetActive(false);
+    }
+
+    void FindCarController()
+    {
+        if (carController == null)
+        {
+            carController = FindObjectOfType<PrometeoCarController>();
+            if (carController == null)
+            {
+                Debug.LogError("CountdownText: No PrometeoCarController found in scene!");
+            }
+            else
+            {
+                Debug.Log("CountdownText: Automatically found PrometeoCarController");
+            }
+        }
+>>>>>>> Stashed changes
     }
 
     public IEnumerator PlayCountdown()
     {
+<<<<<<< Updated upstream
         if (countdownText == null)
         {
             Debug.LogError("Countdown Text reference not set!");
             yield break;
+=======
+        // Ensure we have a reference before starting
+        if (carController == null)
+        {
+            FindCarController();
+>>>>>>> Stashed changes
         }
 
         countdownText.gameObject.SetActive(true);
@@ -51,7 +90,6 @@ public class CountdownText : MonoBehaviour
             countdownText.text = step;
             countdownText.transform.localScale = Vector3.zero;
 
-            // Animate scale in
             float t = 0f;
             while (t < 1f)
             {
@@ -64,6 +102,7 @@ public class CountdownText : MonoBehaviour
         }
 
         countdownText.gameObject.SetActive(false);
+<<<<<<< Updated upstream
 
         // Enable the car controller after the countdown finishes
         if (carController != null)
@@ -71,4 +110,13 @@ public class CountdownText : MonoBehaviour
             carController.enabled = true;
         }
     }
+=======
+        OnCountdownComplete?.Invoke();
+    }
+
+    public void StartCountdown()
+    {
+        StartCoroutine(PlayCountdown());
+    }
+>>>>>>> Stashed changes
 }

@@ -43,9 +43,41 @@ public class DriftScoreManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        // Automatically find the car controller
+        FindCarController();
+        
+        // Find HUD text if not assigned
+        if (hudDriftScoreText == null)
+        {
+            hudDriftScoreText = GameObject.FindGameObjectWithTag("DriftScore")?.GetComponent<Text>();
+        }
+    }
+
+    void FindCarController()
+    {
+        if (carController == null)
+        {
+            carController = FindObjectOfType<PrometeoCarController>();
+            if (carController == null)
+            {
+                Debug.LogError("DriftScoreManager: No PrometeoCarController found in scene!");
+            }
+            else
+            {
+                Debug.Log("DriftScoreManager: Automatically found PrometeoCarController");
+            }
+        }
+    }
+
     void Update()
     {
-        if (carController == null) return;
+        if (carController == null)
+        {
+            FindCarController();
+            return;
+        }
 
         if (carController.isDrifting)
         {
@@ -70,17 +102,24 @@ public class DriftScoreManager : MonoBehaviour
             {
                 EndDriftPopup();
             }
-
-            currentCombo = 0f; // Reset combo when not drifting
+            currentCombo = 0f;
         }
     }
 
     void StartDriftPopup()
     {
+<<<<<<< Updated upstream
         if (popupPrefab == null || carController == null) return;
         
         currentPopup = Instantiate(popupPrefab, carController.transform.position + Vector3.up * 2f, Quaternion.identity);
         currentPopup.Attach(carController.transform);
+=======
+        if (popupPrefab != null && carController != null)
+        {
+            currentPopup = Instantiate(popupPrefab, carController.transform.position + Vector3.up * 2f, Quaternion.identity);
+            currentPopup.Attach(carController.transform);
+        }
+>>>>>>> Stashed changes
     }
 
     void EndDriftPopup()
