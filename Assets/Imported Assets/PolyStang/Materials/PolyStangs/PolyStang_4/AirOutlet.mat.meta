@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64748b428b4309e48b63e714d0f0661b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Materials/PolyStangs/PolyStang_4/AirOutlet.mat
+  uploadId: 655332

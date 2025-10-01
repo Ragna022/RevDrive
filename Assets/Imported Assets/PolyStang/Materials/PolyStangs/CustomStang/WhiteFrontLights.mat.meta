@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ac78782567ff1a418b79d05fb2b08cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Materials/PolyStangs/CustomStang/WhiteFrontLights.mat
+  uploadId: 655332

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a706365eba1a5e47b20cb97172581b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 269404
+  packageName: PolyStang CC
+  packageVersion: 1.1
+  assetPath: Assets/PolyStang/Materials/PolyStangs/Details/MetallicParts.mat
+  uploadId: 655332
