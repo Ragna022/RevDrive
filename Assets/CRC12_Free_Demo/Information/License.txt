@@ -1,0 +1,13 @@
+LICENSE
+
+Can I use your asset for commercial purposes? What is the license?
+Yes, you may use the asset for commercial purposes. Your purchase grants a lifetime license that is valid for every future release of the asset.
+This is all governed by the Unity Asset Store End User License Agreement (EULA), the essence of which is:
+
+   - You may use the asset in a game or other type of interactive media, for commercial or other purposes.
+   - It is forbidden to resell the asset separately. Also, you may not lend it or license it to anyone else.
+   - The asset must be included (packed) in your game in such a way that your own end users would have a reasonably hard time extracting its data. 
+
+NOTE: If you have any further questions regarding the EULA please contact Asset Store Support - assetstore@unity3d.com
+
+Here's the full license agreement. - http://unity3d.com/company/legal/as_terms

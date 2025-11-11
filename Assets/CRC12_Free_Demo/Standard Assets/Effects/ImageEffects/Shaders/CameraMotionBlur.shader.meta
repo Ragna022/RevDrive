@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 85a88efa8c871af4a9d17c64791b6f4f
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader
+  uploadId: 116785

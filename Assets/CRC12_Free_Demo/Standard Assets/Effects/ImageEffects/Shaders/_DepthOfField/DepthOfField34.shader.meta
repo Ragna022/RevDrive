@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 987fb0677d01f43ce8a9dbf12271e668
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader
+  uploadId: 116785

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f1b13d7a80660504a858ea24cfa418c6
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader
+  uploadId: 116785

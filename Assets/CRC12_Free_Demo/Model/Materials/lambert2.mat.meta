@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74301e5881da7a44192d983ee0cc6546
+timeCreated: 1430772726
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Model/Materials/lambert2.mat
+  uploadId: 116785

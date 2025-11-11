@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 51ae11a5cd82fda468a85179946d672a
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc
+  uploadId: 116785

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f688f89ed5eb847c5b19c934a0f1e772
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader
+  uploadId: 116785

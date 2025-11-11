@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44e509c0279389b4b980bd6cc9b94544
+timeCreated: 1428403378
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Model/Materials/colors_green.mat
+  uploadId: 116785

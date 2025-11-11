@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5f9565a32c6f2c41829397d29f18bc8
+timeCreated: 1460388987
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Prefabs/Car03.prefab
+  uploadId: 116785

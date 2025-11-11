@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cf213c91c2e1ed4984b593584853d52
+timeCreated: 1428404461
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Model/Materials/colors_purple.mat
+  uploadId: 116785

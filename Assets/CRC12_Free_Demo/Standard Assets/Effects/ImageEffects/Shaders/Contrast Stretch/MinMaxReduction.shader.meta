@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 57b33a14b6d5347c5a85c36f6cb3b280
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/Contrast
+    Stretch/MinMaxReduction.shader
+  uploadId: 116785

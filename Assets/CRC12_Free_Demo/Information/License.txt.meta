@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43d142e149be10146a51f0182d749959
+timeCreated: 1431702185
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Information/License.txt
+  uploadId: 116785

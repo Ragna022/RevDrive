@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f7898d203e9b94c0dbe2bf9dd5cb32c0
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader
+  uploadId: 116785

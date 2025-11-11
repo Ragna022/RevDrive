@@ -1,0 +1,14 @@
+Color Representation
+
+Blue - Body/Metal/Paint
+Red - Windows
+Green - Under Body
+Orange - Plastic/Grill/Matte Color
+____________________
+Pink - Tire Hub
+Yellow - Tire/Rubber
+____________________
+Purple - Headlight
+Light Green - Rear Light
+____________________
+Sky Blue - Chrome/Mirrow

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9abe20d2d17dafd45ba65da9e46940b1
+timeCreated: 1428404461
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Model/Materials/colors_lightgreen.mat
+  uploadId: 116785

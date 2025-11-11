@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e515e0f94cefc4c0db54b45cba621544
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+  uploadId: 116785

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a932b3cdcccac404884e8a63d0bf579c
+timeCreated: 1428334560
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Scripts/Logo.cs
+  uploadId: 116785

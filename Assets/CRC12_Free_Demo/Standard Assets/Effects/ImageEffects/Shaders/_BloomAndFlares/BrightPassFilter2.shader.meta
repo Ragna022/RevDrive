@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader
+  uploadId: 116785

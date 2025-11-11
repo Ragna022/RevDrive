@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f308ccc5692d9a44596e9b35328ecebb
+timeCreated: 1428403378
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Model/Materials/colors_yellow.mat
+  uploadId: 116785

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 8b30686bb4322ab42ad5eb50a0210b58
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader
+  uploadId: 116785

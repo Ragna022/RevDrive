@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 57e6deea7c2924e22a5138e2b70bb4dc
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader
+  uploadId: 116785

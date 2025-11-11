@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: db7667203062c644ea1877077e30ebd6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52995
+  packageName: Lowpoly Sports Car - 2 in 1
+  packageVersion: 1.1
+  assetPath: Assets/Lowpoly_Sports_Car_2_in_1/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+  uploadId: 163011

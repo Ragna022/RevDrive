@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b3728d1488b02490cbd196c7941bf1f8
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader
+  uploadId: 116785

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: daf9781cad112c75d0008dfa8d76c639
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader
+  uploadId: 116785

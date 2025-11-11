@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 963484209d11fd7f110076aa44295342
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader
+  uploadId: 116785

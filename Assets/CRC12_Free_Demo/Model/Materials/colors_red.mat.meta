@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97d98b30b42b034469a3fb32f5b1e271
+timeCreated: 1428403378
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Model/Materials/colors_red.mat
+  uploadId: 116785

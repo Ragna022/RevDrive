@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c182fa94a5a0a4c02870641efcd38cd5
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+  uploadId: 116785

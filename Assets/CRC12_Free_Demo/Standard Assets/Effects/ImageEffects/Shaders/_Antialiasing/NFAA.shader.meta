@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ce0cb2621f6d84e21a87414e471a3cce
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+  uploadId: 116785

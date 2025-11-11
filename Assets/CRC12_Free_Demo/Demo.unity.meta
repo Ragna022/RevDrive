@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5e9ad50ad42676b45b3a0039f18cd823
+timeCreated: 1428332225
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Demo.unity
+  uploadId: 116785

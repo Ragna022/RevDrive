@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 14768d3865b1342e3a861fbe19ba2db2
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader
+  uploadId: 116785

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b59984d82af624bd3b0c777f038276f2
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19264
+  packageName: CRC12 - Free Demo
+  packageVersion: 1.5.2
+  assetPath: Assets/CRC12_Free_Demo/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader
+  uploadId: 116785

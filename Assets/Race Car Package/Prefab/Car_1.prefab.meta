@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b60d7f9e75fb4ae49bb7ed090888cd1d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 141690
+  packageName: Race Car package
+  packageVersion: 1.0
+  assetPath: Assets/Race Car Package/Prefab/Car_1.prefab
+  uploadId: 299225
