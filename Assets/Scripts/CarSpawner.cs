@@ -3,35 +3,47 @@ using UnityEngine.SceneManagement;
 
 public class CarSpawner : MonoBehaviour
 {
-    [SerializeField] private Vector3[] spawnPoints; // Assign manually in inspector for each car
-    [SerializeField] private Vector3 spawnRotationEuler; // Set this once to make all cars face front
+    [SerializeField] private Vector3[] spawnPoints; // Assigned manually in inspector for each car
+    [SerializeField] private Vector3[] spawnRotationEuler; // Assigned manually in inspector for each car
+    
+    //? Default car assuming user did not choose any car before playing game
+    [SerializeField] private GameObject defaultCar;
 
     void Start()
     {
-        var carPrefab = CarSelectionManager.Instance.selectedCarPrefab;
-        var color = CarSelectionManager.Instance.selectedCarColor;
-
-        if (carPrefab != null)
+        if (CarSelectionManager.Instance == null)
         {
-            int selectedIndex = GetSelectedCarIndex(carPrefab);
-            Vector3 spawnPosition = Vector3.zero;
-
-            if (selectedIndex >= 0 && selectedIndex < spawnPoints.Length)
-                spawnPosition = spawnPoints[selectedIndex];
-            else
-                Debug.LogWarning("Selected index is out of range of spawnPoints. Defaulting to Vector3.zero.");
-
-            Quaternion spawnRotation = Quaternion.Euler(spawnRotationEuler);
-            GameObject car = Instantiate(carPrefab, spawnPosition, spawnRotation);
-
-            // Apply the color to the car's body
-            var renderers = car.GetComponentsInChildren<Renderer>();
-            foreach (var r in renderers)
-            {
-                if (r.material.name.Contains("Body"))
-                    r.material.color = color;
-            }
+            SpawnDefault();
+            return;
         }
+
+        GameObject carPrefab = CarSelectionManager.Instance.selectedCarPrefab;
+
+        if (carPrefab == null)
+        {
+            SpawnDefault();
+            return;
+        }
+
+        int index = GetSelectedCarIndex(carPrefab);
+
+        if (index < 0 || index >= spawnPoints.Length)
+        {
+            Debug.LogWarning("Invalid index. Spawning default.");
+            SpawnDefault();
+            return;
+        }
+
+        Quaternion rot = Quaternion.Euler(spawnRotationEuler[index]);
+        Instantiate(carPrefab, spawnPoints[index], rot);
+        Debug.Log("Spawned selected car!");
+    }
+
+    private void SpawnDefault()
+    {
+        Quaternion rot = Quaternion.Euler(spawnRotationEuler[0]);
+        Instantiate(defaultCar, spawnPoints[0], rot);
+        Debug.Log("Spawned DEFAULT car!");
     }
 
     private int GetSelectedCarIndex(GameObject selectedPrefab)

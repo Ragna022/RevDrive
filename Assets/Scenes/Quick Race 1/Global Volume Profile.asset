@@ -90,7 +90,7 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.216
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
@@ -106,25 +106,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06437c1ff663d574d9447842ba0a72e4, type: 3}
   m_Name: ScreenSpaceLensFlare
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 2.38
   tintColor:
     m_OverrideState: 1
-    m_Value: {r: 0.3774303, g: 0.28462085, b: 0.49056602, a: 1}
+    m_Value: {r: 1, g: 0, b: 0.88748884, a: 1}
   bloomMip:
     m_OverrideState: 0
     m_Value: 1
   firstFlareIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3.71
   secondaryFlareIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3.89
   warpedFlareIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 78.2
   warpedFlareScale:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -142,7 +142,7 @@ MonoBehaviour:
     m_Value: 1.25
   scale:
     m_OverrideState: 1
-    m_Value: 1.5
+    m_Value: 2.94
   streaksIntensity:
     m_OverrideState: 1
     m_Value: 0.3
@@ -292,8 +292,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {x: 0.98364687, y: 1, z: 0.8852662, w: -0.07005253}
   gain:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0.48899764}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,13 +360,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9138084, z: 0.7688583, w: 0.15761815}
+    m_Value: {x: 1, y: 0.9138084, z: 0.7688583, w: 0.3043174}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 1, y: 0.7999949, z: 0.6176976, w: 0.29772326}
   highlights:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 1}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.3

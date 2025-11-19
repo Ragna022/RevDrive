@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -28,7 +29,17 @@ public class CameraController : MonoBehaviour
         cameraPos[2] = new Vector2(8.9f, 1.2f);
         cameraPos[3] = new Vector2(5f, 2f); // optional extra view
 
-        
+        StartCoroutine(DelayThenFindPlayerReference()); //?? Wait for a second before grabbing in-game reference
+    }
+
+    IEnumerator DelayThenFindPlayerReference()
+    {
+        yield return new WaitForSeconds(1f);
+        FindPlayerReference();
+    }
+
+    private void FindPlayerReference()
+    {
 		attachedVehicle = GameObject.FindWithTag("Player");
 
 		if(attachedVehicle == null)
@@ -36,12 +47,6 @@ public class CameraController : MonoBehaviour
 			Debug.LogWarning("Car Transform target not found");
             return;
 		}
-
-        // if (attachedVehicle == null)
-        // {
-        //     Debug.LogError("No attached vehicle assigned!");
-        //     return;
-        // }
 
         focusPoint = attachedVehicle.transform.Find("focus")?.gameObject;
         if (focusPoint == null)
@@ -51,6 +56,8 @@ public class CameraController : MonoBehaviour
         }
 
         target = focusPoint.transform;
+
+        
         controllerRef = attachedVehicle.GetComponent<PrometeoCarController>();
     }
 

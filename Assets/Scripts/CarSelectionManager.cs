@@ -4,9 +4,9 @@ public class CarSelectionManager : MonoBehaviour
 {
     public static CarSelectionManager Instance;
 
+    //? Saved car from user's entry
     public GameObject selectedCarPrefab;
-    public Color selectedCarColor;
-    public GameObject[] allCarPrefabs; // Add this in the garage scene
+    public GameObject[] allCarPrefabs;
 
     private void Awake()
     {

@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class CarCarouselItem : MonoBehaviour
 {
-    public GameObject[] goldOverlays;
-    public GameObject[] whiteBases;
     public GameObject lockedImage;
 
     public string carName;

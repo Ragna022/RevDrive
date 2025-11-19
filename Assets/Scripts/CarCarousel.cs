@@ -5,22 +5,23 @@ using TMPro;
 
 public class CarCarousel : MonoBehaviour
 {
-    public ScrollRect scrollRect;
+    [SerializeField] private ScrollRect scrollRect;
     public GameObject dotPrefab;
-    public Transform dotContainer;
-    public Color activeDotColor = Color.white;
-    public Color inactiveDotColor = Color.gray;
-    public float scaleFactor = 1.2f;
+    [SerializeField] private Transform dotContainer;
+    [SerializeField] private Color activeDotColor = Color.white;
+    [SerializeField] private Color inactiveDotColor = Color.gray;
+    [SerializeField] private float scaleFactor = 1.2f;
+    [SerializeField] private Vector3 normalScale;
     public float lerpSpeed = 10f;
 
-    public Text carNameText;
+    [SerializeField] private Text carNameText;
     public ModManager modManager;
     public Button useCarButton;
 
-    public Slider accelerationSlider;
-    public Slider topSpeedSlider;
-    public Slider handlingSlider;
-    public Slider nitroSlider;
+    [SerializeField] private Slider accelerationSlider;
+    [SerializeField] private Slider topSpeedSlider;
+    [SerializeField] private Slider handlingSlider;
+    [SerializeField] private Slider nitroSlider;
 
     private List<RectTransform> items = new List<RectTransform>();
     private List<GameObject> dots = new List<GameObject>();
@@ -52,15 +53,12 @@ public class CarCarousel : MonoBehaviour
         for (int i = 0; i < items.Count; i++)
         {
             bool isCenter = items[i] == closestItem;
-            Vector3 targetScale = isCenter ? Vector3.one * scaleFactor : Vector3.one;
+            Vector3 targetScale = isCenter ? normalScale * scaleFactor : normalScale;
             items[i].localScale = Vector3.Lerp(items[i].localScale, targetScale, Time.deltaTime * lerpSpeed);
 
             CarCarouselItem item = items[i].GetComponent<CarCarouselItem>();
             if (item != null)
             {
-                foreach (var gold in item.goldOverlays) gold.SetActive(isCenter);
-                foreach (var white in item.whiteBases) white.SetActive(!isCenter);
-
                 // Always show locked image if car is locked
                 item.lockedImage.SetActive(item.isLocked);
             }
@@ -85,7 +83,9 @@ public class CarCarousel : MonoBehaviour
 
         for (int i = 0; i < items.Count; i++)
         {
-            float distance = Mathf.Abs(items[i].position.y - centerWorld.y);
+            
+            float distance = Mathf.Abs(items[i].position.x - centerWorld.x);
+
             if (distance < closestDistance)
             {
                 closestDistance = distance;
@@ -135,26 +135,19 @@ public class CarCarousel : MonoBehaviour
     public void OnUseCarButtonPressed()
     {
         CarCarouselItem selectedCarItem = items[currentIndex].GetComponent<CarCarouselItem>();
+
         if (selectedCarItem != null && !selectedCarItem.isLocked)
         {
             // Set the selected car prefab in the CarSelectionManager
-            CarSelectionManager.Instance.selectedCarPrefab = CarSelectionManager.Instance.allCarPrefabs[currentIndex];
-
-            // Directly assign the selected color from CarSelectionManager
-            Color selectedColor = CarSelectionManager.Instance.selectedCarColor;
-
-            // Debug log for verification
-            Debug.Log($"Car selected: {CarSelectionManager.Instance.selectedCarPrefab.name} with color: {selectedColor}");
-
-            // Now, proceed with setting the car's color or doing whatever is needed in the game logic
-            // For example, update the car model color in gameplay scene (if required)
+            CarSelectionManager.Instance.selectedCarPrefab = 
+                CarSelectionManager.Instance.allCarPrefabs[currentIndex];
         }
     }
-
 
     public void UnlockCurrentCar()
     {
         CarCarouselItem item = items[currentIndex].GetComponent<CarCarouselItem>();
+
         if (item != null)
         {
             item.isLocked = false;

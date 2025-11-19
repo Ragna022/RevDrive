@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -15,10 +16,11 @@ public class GameManager : MonoBehaviour
     [Header("Turbo Effect GameObject")]
     public GameObject turboEffectGameObject;
 
+    [System.Obsolete]
     void Start()
     {
         // Automatically find the car controller
-        FindCarController();
+        StartCoroutine(FindCarController());
         
         if (turboEffectGameObject != null)
         {
@@ -26,11 +28,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void FindCarController()
+    [System.Obsolete]
+    IEnumerator FindCarController()
     {
+        yield return new WaitForSeconds(1);
+
         if (carController == null)
         {
             carController = FindObjectOfType<PrometeoCarController>();
+            
             if (carController == null)
             {
                 Debug.LogError("GameManager: No PrometeoCarController found in scene!");
@@ -42,6 +48,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    [System.Obsolete]
     void Update()
     {
         // Ensure we have a reference to the car controller
