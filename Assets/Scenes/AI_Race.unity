@@ -2368,7 +2368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cfa0adbb9593994cae462e53b0efde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 1666328264}
+  carController: {fileID: 0}
   speedometerFillImage: {fileID: 979302531}
   vehicleSpeed: 0
   turboEffectGameObject: {fileID: 6285059777468186940}
@@ -2402,7 +2402,7 @@ MonoBehaviour:
   countdownText: {fileID: 292955236}
   delayBetweenSteps: 1
   scaleUp: 1.5
-  carController: {fileID: 1666328264}
+  carController: {fileID: 0}
 --- !u!4 &829086364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8736022052560050535, guid: 2b742cea3010f98448c0976eb0724a22, type: 3}
@@ -3741,7 +3741,7 @@ MonoBehaviour:
   - {fileID: 323481914}
   - {fileID: 1691422870}
   countdownTextScript: {fileID: 785115899}
-  playerCarController: {fileID: 1666328264}
+  playerCarController: {fileID: 0}
   minAggressiveness: 0.7
   maxAggressiveness: 1.3
   minSkill: 0.6
@@ -9616,17 +9616,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 261786959625234688, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
   m_PrefabInstance: {fileID: 129950721}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1666328264 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 627556911, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
-  m_PrefabInstance: {fileID: 129950721}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0fefceefe666bb4682b272ec8c5bdd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1677194890
 GameObject:
   m_ObjectHideFlags: 0

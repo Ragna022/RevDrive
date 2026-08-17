@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RevDrive.sln"
+    "dotnet.defaultSolution": "RevDrive.slnx",
+    "dotrush.roslyn.projectOrSolutionFiles": []
 }
